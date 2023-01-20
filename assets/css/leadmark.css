@@ -11643,8 +11643,8 @@ textarea.form-control {
   background: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
-.portfolio-section::-webkit-scrollbar {
-  display: none;
+#portfolio::-webkit-scrollbar {
+  width: 5px;
 }
 .portfolio-section .filters {
   border: 2px solid #dee2e6;
