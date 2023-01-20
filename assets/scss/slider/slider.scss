@@ -1,0 +1,195 @@
+body, html {
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+.slideshow {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+
+
+/*----------------------------------------
+Slider 1
+----------------------------------------*/
+.slider {
+  height: 100%;
+  overflow: hidden;
+  
+  & .item {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+      
+    & img {
+      width: auto;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      left: 50%;
+      transform: translateX(-50%) scale(1.4);
+      opacity: .4;
+      filter: blur(50px) saturate(3);
+    }
+    
+  }
+  
+}
+
+
+/*----------------------------------------
+Slider 2
+----------------------------------------*/
+.slider-2 {
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 0%;
+  padding-bottom: 35%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 40px rgba(0,0,0,.4);
+  
+  &:before {
+    content: '';
+    position: absolute;
+    left: -1%;
+    bottom: -1%;
+    width: 102%;
+    height: 50%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    z-index: 1;
+    pointer-events: none;
+  }
+    
+  & .item {
+    height: 0;
+    padding-bottom: 16%;
+    transform: scale(1.02);
+    background: #333;
+    
+    &.slick-active {
+      z-index: 10;
+    }
+        
+    & img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%)  scale(1);
+      height: 100%;
+      width: auto;
+      opacity: 1;
+      filter: none;
+    }
+    
+  }
+  
+  & .slick-dots {
+    bottom: 15px;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    & li {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      
+      & button {
+        border: none;
+        background: none;
+        text-indent: -9999px;
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        outline: none;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        
+        &:before {
+          content: '';
+          width: 4px;
+          height: 4px;
+          background: #fff;
+          border-radius: 4px;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: .7;
+          transition: all .5s ease-out;
+        }
+        
+      }
+      
+      &.slick-active {
+        
+        & button:before {
+          transform: translate(-50%, -50%) scale(1.4);
+          opacity: 1;
+        }
+        
+      }
+      
+    }
+
+  }
+  
+}
+
+
+/*----------------------------------------
+Arrows
+----------------------------------------*/
+.slick-arrow {
+  position: absolute;
+  z-index: 10;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  
+  &:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    mask-image: url(http://cdn.flaticon.com/svg/22/22086.svg);
+    display: block;
+    opacity: .5;
+    transition: all .5s ease-out;
+  }
+  
+  
+  &.slick-next {
+    left: auto;
+    right: 10px;
+    
+    &:before {
+      transform: rotate(180deg);
+    }
+    
+  }
+  
+  &:hover:before {
+    opacity: 1;
+  }
+  
+}
+
