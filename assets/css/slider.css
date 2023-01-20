@@ -1,8 +1,9 @@
 .sec {
-	/* width: 40em; */
-	height: 40em;
+	width: 100vw;
+	height: 45em;
 	overflow: hidden;
 	/* margin: 0 auto; */
+	padding-top: 50px;
 	z-index: 0;
 	position: relative;
 	background: rgb(56, 56, 56);
@@ -14,8 +15,11 @@
 	z-index: 1; */
 }
 slido{
-	/* width: 100%; */
+	width: 100%;
+	height: 60em;
 }
+
+
 .secinside{
 	/* z-index: 3; */
 }
@@ -45,14 +49,16 @@ slido{
   }
   
   .main-pos {
-	margin-left: 10em !important;
+	margin-left: -0.5em !important;
+	transform: translateX(-50%);
 	z-index: 3000;
 	/*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
   }
   
   .left-pos {
 	opacity: .3;
-	margin-left: -12em !important;
+	margin-left: -22em !important;
+	transform: translateX(-50%);
 	z-index: 1000;
 	-webkit-transform: scale(.75);
 	-moz-transform: scale(.75);
@@ -60,7 +66,8 @@ slido{
   }
   
   .back-pos {
-	margin-left: 6em !important;
+	margin-left: 0em !important;
+	transform: translateX(-50%);
 	opacity: .05;
 	-webkit-transform: scale(.5);
 	-moz-transform: scale(.5);
@@ -69,7 +76,8 @@ slido{
   
   .right-pos {
 	opacity: .3;
-	margin-left:  32em !important;
+	margin-left:  0em !important;
+	transform: translateX(-50%);
 	z-index: 1000;
 	-webkit-transform: scale(.75);
 	-moz-transform: scale(.75);
