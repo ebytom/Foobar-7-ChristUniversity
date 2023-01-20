@@ -70,6 +70,8 @@ body {
   color: #444;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 [tabindex="-1"]:focus {
@@ -11646,12 +11648,18 @@ textarea.form-control {
 #portfolio::-webkit-scrollbar {
   width: 5px;
 }
-.portfolio-section .filters {
+
+.portfolio-section .filtercontainer{
+  overflow: hidden;
   border: 2px solid #dee2e6;
   border-radius: 100px;
+}
+
+.portfolio-section .filtercontainer .filters {
   padding: 2px 0;
-  margin: 0 auto 20px;
-  overflow-x: scroll;
+  margin: 0 auto 0px;
+  overflow-y: hidden;
+  overflow-x: auto;
   /* max-width: 400px; */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11663,7 +11671,12 @@ textarea.form-control {
           justify-content: space-between;
 }
 
-.portfolio-section .filters a {
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em
+}
+
+.portfolio-section .filtercontainer .filters a {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
@@ -11676,19 +11689,19 @@ textarea.form-control {
   transition: all 0.3s;
 }
 
-.portfolio-section .filters a:first-child {
+.portfolio-section .filtercontainer .filters a:first-child {
   margin-left: 0;
 }
 
-.portfolio-section .filters a:last-child {
+.portfolio-section .filtercontainer .filters a:last-child {
   margin-right: 0;
 }
 
-.portfolio-section .filters a:hover {
+.portfolio-section .filtercontainer .filters a:hover {
   opacity: .9;
 }
 
-.portfolio-section .filters a.active {
+.portfolio-section .filtercontainer .filters a.active {
   opacity: 1;
   border-radius: 100px;
   background: #ff6e42;
