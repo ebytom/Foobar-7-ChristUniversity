@@ -314,6 +314,7 @@ header {
 }
 .events-container {
 	padding: 0 15px;
+	width: 100%;
 }
 .events__title {
 	color: #bec1ca;
@@ -322,6 +323,7 @@ header {
 	font-weight: 600;
 	margin-bottom: 16px;
 	margin-top: 20px;
+	margin-left: 15px;
 }
 .events__tag {
 	background: #010511;
@@ -375,5 +377,5 @@ header {
 	display: inline-block;
 }
 .events__list{
-	margin-left: -40px;
+	margin-left: -35px;
 }
