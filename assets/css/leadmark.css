@@ -11783,3 +11783,8 @@ textarea.form-control {
 #about{
   /* margin-top: 150px; */
 }
+
+.dispflex{
+  display: flex;
+  flex-direction: column;
+}

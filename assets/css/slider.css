@@ -336,14 +336,26 @@ header {
 	color: #fff;
 	font-size: 10px;
 	font-weight: 600;
-	width: 60px;
-	margin-left: 16px;
-	padding: 5px 2px;
+	/* width: 60px; */
+	/* margin-left: 16px; */
+	padding: 10px;
 	text-align: center;
 }
 .events__tag--highlighted {
 	background: #fdca40;
 }
+
+
+.regbtn{
+	width: 100px;
+	background-color: #ff6e42;
+	margin-bottom: 5px;
+  }
+  .regbtn:hover{
+	transform: scale(1.05);
+  }
+
+
 .events__item {
 	background: #fff;
 	border-left: 8px solid #010511;
@@ -370,7 +382,7 @@ header {
 	font-weight: 700;
 	color: #222741;
 	display: block;
-	margin-bottom: 6px;
+	margin-bottom: 10px;
 }
 .events__date {
 	font-size: 12px;
