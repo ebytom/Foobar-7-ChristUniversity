@@ -11424,7 +11424,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/bg1.jpg) no-repeat center center fixed;
+  background: url(../imgs/bg1_com.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -11656,7 +11656,7 @@ textarea.form-control {
 }
 
 .portfolio-section .filtercontainer .filters {
-  padding: 2px 0;
+  padding: 2px 2px;
   margin: 0 auto 0px;
   overflow-y: hidden;
   overflow-x: auto;

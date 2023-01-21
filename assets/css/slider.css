@@ -1,4 +1,6 @@
 .sec {
+	background: url(../imgs/bg1.jpg)
+
 	width: 100vw;
 	height: 45em;
 	overflow: hidden;
