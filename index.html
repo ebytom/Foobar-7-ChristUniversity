@@ -19,7 +19,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
+    <div class="loader"></div>
     <!-- page Navigation -->
     <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
@@ -34,8 +34,34 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Events</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu dropdown-parent" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Technical Events</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Web development</a></li>
+                                    <li><a class="dropdown-item" href="#">WEb development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Non Technical Events</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Web development</a></li>
+                                    <li><a class="dropdown-item" href="#">WEb development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Workshop</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Web development</a></li>
+                                    <li><a class="dropdown-item" href="#">WEb development</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#posters">Posters</a>
@@ -94,8 +120,8 @@
                             <small class="text-primary font-weight-bold">01</small>
                             <div class="dispf mt-3">
                                 <h5 class="card-title"> Technical Events <h5>
-                                    <i id="chevron1" class="fa-solid fa-chevron-down chevron"></i>
-                                </div>
+                                        <i id="chevron1" class="fa-solid fa-chevron-down chevron"></i>
+                            </div>
                             <!-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis
                                         saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga
                                         quae, minima reprehenderit sequi fugit.</p> -->
@@ -126,14 +152,14 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card mb-md-0" onclick="changechevron('chevron3')"  id="parentdiv3">
+                    <div class="card mb-md-0" onclick="changechevron('chevron3')" id="parentdiv3">
                         <div class="card-body">
                             <small class="text-primary font-weight-bold">03</small>
 
                             <div class="dispf mt-3">
                                 <h5 class="card-title">Workshops<h5>
-                                    <i id="chevron3" class="fa-solid fa-chevron-down chevron"></i>
-                                </div>
+                                        <i id="chevron3" class="fa-solid fa-chevron-down chevron"></i>
+                            </div>
                             <!-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis
                                         saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga
                                         quae, minima reprehenderit sequi fugit.</p> -->
@@ -366,7 +392,8 @@
                             </div>
                             <div class="dispflex">
                                 <span class="events__tag regbtn">Register</span>
-                                <span class="events__tag regbtn"><a class="atag" href="../foobarr/cssbattle.html">More Info</a></span>
+                                <span class="events__tag regbtn"><a class="atag" href="../foobarr/cssbattle.html">More
+                                        Info</a></span>
                             </div>
                         </li>
                         <li class="events__item">
