@@ -400,3 +400,13 @@ header {
 .events__list{
 	margin-left: -35px;
 }
+.dflex{
+	display: flex;
+}
+.dflex i{
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+.dflex{
+	margin-bottom: 0;
+}

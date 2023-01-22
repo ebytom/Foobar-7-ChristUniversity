@@ -4473,6 +4473,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  transform: scale(1.06);
 }
 
 .nav-link.disabled {
@@ -11835,4 +11836,8 @@ textarea.form-control {
 }
 .atag:hover{
   color: white;
+}
+
+.mbspl{
+  margin: 10px 0
 }
