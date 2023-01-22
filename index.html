@@ -12,6 +12,7 @@
     <!-- Bootstrap + LeadMark main styles -->
     <link rel="stylesheet" href="assets/css/leadmark.css">
     <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/chevron.css">
     <!-- <link href="assets/scss/slider/slider.scss" rel="stylesheet/scss" type="text/css"> -->
     <link rel="shortcut icon" href="assets/imgs/foobar7.png" />
     <script src="https://kit.fontawesome.com/9589c450f7.js" crossorigin="anonymous"></script>
@@ -93,8 +94,8 @@
                             <small class="text-primary font-weight-bold">01</small>
                             <div class="dispf mt-3">
                                 <h5 class="card-title"> Technical Events <h5>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                            </div>
+                                    <i id="chevron1" onclick="changechevron('chevron1')" class="fa-solid fa-chevron-down"></i>
+                                </div>
                             <!-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis
                                         saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga
                                         quae, minima reprehenderit sequi fugit.</p> -->
@@ -112,7 +113,7 @@
                             <small class="text-primary font-weight-bold">02</small>
                             <div class="dispf mt-3">
                                 <h5 class="card-title">Non-Technical Events<h5>
-                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <i id="chevron2" onclick="changechevron('chevron2')" class="fa-solid fa-chevron-down"></i>
                             </div>
                             <!-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis
                                         saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga
@@ -131,8 +132,8 @@
 
                             <div class="dispf mt-3">
                                 <h5 class="card-title">Workshops<h5>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                            </div>
+                                    <i id="chevron3" onclick="changechevron('chevron3')" class="fa-solid fa-chevron-down"></i>
+                                </div>
                             <!-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis
                                         saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga
                                         quae, minima reprehenderit sequi fugit.</p> -->
@@ -572,7 +573,7 @@
                         <div class="card-body">
                             <h6 class="card-title">FOOBAR 6.0</h6>
                             <p>Redifing Normalcy</p>
-                            <a href="" class="small text-muted">Go To The Article</a>
+                            <a href="/assets/pages/foobar6.html" class="small text-muted">Go To The Article</a>
                         </div>
                     </div>
                 </div>
@@ -582,7 +583,7 @@
                         <div class="card-body">
                             <h6 class="card-title">FOOBAR 5.0</h5>
                                 <p>Simulating Reality</p>
-                                <a href="https://drive.google.com/file/d/1P_tG-KE4qM0ET_jGnKPefVMlaL0uybKA/view?usp=sharing" class="small text-muted">Go To The Article</a>
+                                <a href="/assets/pages/foobar5.html" class="small text-muted">Go To The Article</a>
                         </div>
                     </div>
                 </div>
@@ -592,7 +593,7 @@
                         <div class="card-body">
                             <h6 class="card-title">FOOBAR 4.0</h6>
                             <p>Unleash intelligence</p>
-                            <a href="https://drive.google.com/file/d/1xlNSjVTtDjk2s0PNT_B2fPdkG1-QjXHt/view?usp=sharing" class="small text-muted">Go To The Article</a>
+                            <a href="/assets/pages/foobar4.html" class="small text-muted">Go To The Article</a>
                         </div>
                     </div>
                 </div>
@@ -726,6 +727,7 @@
     <script src="assets/js/leadmark.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/openDiv.js"></script>
+    <script src="assets/js/chevron.js"></script>
 
 
 </body>
