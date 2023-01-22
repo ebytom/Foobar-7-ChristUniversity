@@ -5088,6 +5088,8 @@ input[type="button"].btn-block {
 }
 
 .card-body {
+  box-shadow: 0px 5px 10px 0px #adadad;
+  border-radius: 20px;
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
