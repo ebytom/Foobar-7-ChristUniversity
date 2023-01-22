@@ -5113,6 +5113,11 @@ input[type="button"].btn-block {
   color: black;
   padding: 5px 0;
   border-bottom: 1px solid #4b4b4b;
+  padding-left: 10px;
+}
+.elecard:hover{
+  background-color: #f05324;
+  border-radius: 12px;
 }
 .card-title {
   margin-bottom: 0.75rem;

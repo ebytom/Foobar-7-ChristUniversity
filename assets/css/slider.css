@@ -1,5 +1,6 @@
 .sec {
-	/* background: url(../imgs/bg1.jpg); */
+	/* background: url(../imgs/bg1.jpg) no-repeat center center; */
+	background: rgb(0 38 44);
 	/* opacity: .4; */
       /* filter: blur(50px) saturate(3); */
 	width: 100vw;
@@ -9,7 +10,7 @@
 	padding-top: 50px;
 	z-index: 10;
 	position: relative;
-	background: rgb(56, 56, 56);
+	/* background: rgb(56, 56, 56);*/
 	display: flex;
 	justify-content: center;
 	/* align-items: center; */
@@ -328,7 +329,6 @@ header {
 }
 .events__tag {
 	background: #010511;
-	border
 	border: 2px solid #fefefe;
 	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
@@ -345,7 +345,11 @@ header {
 .events__tag--highlighted {
 	background: #fdca40;
 }
-
+.dispf{
+	display: flex;
+	padding-right: 6px;
+	justify-content: space-between;
+}
 
 .regbtn{
 	width: 100px;
