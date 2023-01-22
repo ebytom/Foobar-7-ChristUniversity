@@ -11821,3 +11821,18 @@ textarea.form-control {
   display: flex;
   flex-direction: column;
 }
+
+
+.splbg{
+  background-color: #00262c;
+}
+
+#about{
+  margin-top: 100px;
+}
+.atag{
+  color: white;
+}
+.atag:hover{
+  color: white;
+}
