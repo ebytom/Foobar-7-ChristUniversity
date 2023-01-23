@@ -37,3 +37,12 @@
     margin-left: .1rem;
     margin-right: .1rem;
   }
+
+  .loader{
+    width: 100vw;
+    height: 1000vh;
+    position: absolute;
+    z-index: 999;
+    overflow: hidden;
+    background-color: aliceblue;
+  }
