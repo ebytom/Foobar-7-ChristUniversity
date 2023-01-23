@@ -11836,6 +11836,9 @@ textarea.form-control {
 #about{
   margin-top: 100px;
 }
+.aboutsec{
+  margin-top: 0;
+}
 .atag{
   color: white;
 }
