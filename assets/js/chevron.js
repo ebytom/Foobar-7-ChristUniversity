@@ -30,4 +30,5 @@ $('.dropdown-menu a.dropdown-toggle').on('mouseover', function(e) {
 
 window.onload = () => {
   document.getElementsByClassName('loader')[0].remove()
+  document.getElementsByTagName('html')[0].classList.remove('htmlll')
 }
