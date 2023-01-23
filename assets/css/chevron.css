@@ -1,3 +1,7 @@
+.htmlll{
+  overflow: hidden;
+}
+
 .rotatechevron {
     animation: spin 0.2s  linear;
     transform: rotate(180deg);
