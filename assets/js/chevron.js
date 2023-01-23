@@ -26,3 +26,8 @@ $('.dropdown-menu a.dropdown-toggle').on('mouseover', function(e) {
     return false;
   });
 
+
+
+window.onload = () => {
+  document.getElementsByClassName('loader')[0].remove()
+}
