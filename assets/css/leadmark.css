@@ -10884,7 +10884,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #a1a1a1!important;
 }
 
 .text-black-50 {
@@ -11837,6 +11837,7 @@ textarea.form-control {
   margin-top: 100px;
 }
 .aboutsec{
+  padding-top: 50px;
   margin-top: 0;
 }
 .atag{
@@ -11848,4 +11849,29 @@ textarea.form-control {
 
 .mbspl{
   margin: 10px 0
+}
+.pt-30
+{
+  padding-top: 30px;
+}
+
+
+/* -------------------------------------------------- */
+
+
+.team-img{
+  width: 140px;
+  border-radius: 50%;
+  padding: 0 30px;
+}
+.df{
+  display: flex;
+  justify-content: center;
+}
+.tac{
+  text-align: center;
+}
+.clubname{
+  font-size: 12px;
+  margin: 10px 0;
 }
