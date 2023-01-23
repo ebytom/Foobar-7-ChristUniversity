@@ -1,0 +1,27 @@
+{
+    "tech": [
+        "Break the query",
+        "Codeathon",
+        "UI UX",
+        "AI Hackathon",
+        "Ideathon",
+        "Short game dev",
+        "CSS Battle",
+        "Tech Quiz",
+        "Web Dev"
+    ],
+    "nontech": [
+        "Blind Line Typping",
+        "Movie/Anime Quiz",
+        "Ace Clutch",
+        "Image brush",
+        "Poster"
+    ],
+    "workshop":[
+        "Webdev",
+        "Research",
+        "Gaming",
+        "Java Programming",
+        "C Programming"
+    ]
+}
