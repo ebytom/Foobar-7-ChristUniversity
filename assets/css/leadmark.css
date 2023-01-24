@@ -568,6 +568,9 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .mt20{
+    margin-top: -20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -11874,4 +11877,7 @@ textarea.form-control {
 .clubname{
   font-size: 12px;
   margin: 10px 0;
+}
+.mt20{
+  margin-top: 20px;
 }
