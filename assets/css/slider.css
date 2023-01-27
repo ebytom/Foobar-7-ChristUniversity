@@ -4,10 +4,10 @@
 	/* opacity: .4; */
       /* filter: blur(50px) saturate(3); */
 	width: 100vw;
-	height: 550px;
+	height: 600px;
 	overflow: hidden;
 	/* margin: 0 auto; */
-	padding-top: 50px;
+	padding-top: 100px;
 	z-index: 10;
 	position: relative;
 	/* background: rgb(56, 56, 56);*/
@@ -20,6 +20,14 @@ slido{
 	height: 60em;
 }
 
+.postertitle{
+	text-align: center;
+	position: relative;
+    margin-bottom: -60px;
+    z-index: 10000;
+	color: white;
+	font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+}
 
 .secinside{
 	/* z-index: 3; */
