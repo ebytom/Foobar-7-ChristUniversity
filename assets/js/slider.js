@@ -2,13 +2,13 @@
 var autoSwap = setInterval( swap,2500);
 
 //pause slideshow and reinstantiate on mouseout
-$('ul, span').hover(
-  function () {
-    clearInterval(autoSwap);
-}, 
-  function () {
-   autoSwap = setInterval( swap,2500);
-});
+// $('ul, span').hover(
+//   function () {
+//     clearInterval(autoSwap);
+// }, 
+//   function () {
+//    autoSwap = setInterval( swap,2500);
+// });
 
 //global variables
 var items = [];
