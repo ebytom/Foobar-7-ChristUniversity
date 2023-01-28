@@ -2,7 +2,9 @@ const eventList={
     "four": [
       {
         "id": "inauguration",
-        "name": "INAUGURATION"
+        "name": "INAUGURATION",
+        "time": "4 PM - 6 PM",
+        "venue": "Open Audi"
       }
     ],
     "six": [
@@ -207,7 +209,16 @@ const eventList={
   }
 
 
-  eventList[v].map(eventList=>{
-    var elem = `<div class="elecard">${event}</div>`
-    document.getElementById('childdiv1').innerHTML += elem;
-  })
+  // eventList[v].map(eventList=>{
+  //   var elem = `<div class="elecard">${event}</div>`
+  //   document.getElementById('childdiv1').innerHTML += elem;
+  // })
+
+  function addevents() {
+    for (const [key, value] of eventList) {
+      var elem = <ul class="events__list" id>
+                        
+                    </ul>
+        value
+    }
+  }
