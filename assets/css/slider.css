@@ -335,6 +335,17 @@ header {
 	margin-top: 20px;
 	margin-left: 15px;
 }
+
+.noevents__title {
+	color: #bec1ca;
+	display: inline-block;
+	font-weight: 600;
+	margin: auto;
+
+	margin-bottom: 16px;
+	margin-top: 20px;
+}
+
 .events__tag {
 	background: #010511;
 	border: 2px solid #fefefe;

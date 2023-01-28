@@ -11881,3 +11881,10 @@ textarea.form-control {
 .mt20{
   margin-top: 20px;
 }
+
+
+
+.wsp{
+  white-space: nowrap;
+  width: 100%;
+}
