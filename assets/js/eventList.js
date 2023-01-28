@@ -19,7 +19,7 @@ const eventList = {
       "name": "OPEN MIC",
       "time": "4 PM - 6 PM",
       "venue": "Open Audi",
-      "register": "",
+      "register": "https://forms.gle/Zdng2YqDUob2vYh28",
       "more": ""
     }
   ],
@@ -29,7 +29,7 @@ const eventList = {
       "name": "AI HACKATHON",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/KAp4ERDtBzBLaXwL6",
       "more": ""
     }
   ],
@@ -39,7 +39,7 @@ const eventList = {
       "name": "BREAK THE QUERY",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/4uipUXZzcTAyomL47",
       "more": ""
     }
   ],
@@ -49,7 +49,7 @@ const eventList = {
       "name": "CODEATHON",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/hRJEKMbe4sBo5XjMA",
       "more": ""
     }
   ],
@@ -59,7 +59,7 @@ const eventList = {
       "name": "WEBALLY",
       "time": "1 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/oMhrSXaodaFe6EYF9",
       "more": ""
     },
     {
@@ -67,15 +67,15 @@ const eventList = {
       "name": "BLIND TYPING",
       "time": "2 PM - 4 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/kpkvRDHMNGVejeUi7",
       "more": ""
     },
     {
       "id": "ideathon",
-      "name": "IDEATHIN",
+      "name": "IDEATHON",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/wJP7ZkktAWFFLyZ36",
       "more": ""
     }
   ],
@@ -101,7 +101,7 @@ const eventList = {
       "name": "IMAGE BRUSH",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/MdH5oZED5BVrstwg8",
       "more": ""
     }
   ],
@@ -111,7 +111,7 @@ const eventList = {
       "name": "SHORT GAME DEVELOPMENT",
       "time": "2 PM - 4 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/JdbweAN2XhjreXou8",
       "more": ""
     },
     {
@@ -119,7 +119,7 @@ const eventList = {
       "name": "FLIX n MANGA",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/KJF9j3QGJLUcU4v5A",
       "more": ""
     }
   ],
@@ -129,7 +129,7 @@ const eventList = {
       "name": "ILLUSTRA",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/Q8ioT35J7Aybjbpx7",
       "more": ""
     }
   ],
@@ -139,7 +139,7 @@ const eventList = {
       "name": "CSS BATTLE",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/fTD8DzgAsz9d6RyZ8",
       "more": ""
     }
   ],
@@ -149,7 +149,7 @@ const eventList = {
       "name": "TECH QUIZ",
       "time": "2 PM - 4 PM",
       "venue": "OPen Audi",
-      "register": "",
+      "register": "https://forms.gle/GW4jrHXvGkgaXngD6",
       "more": ""
     }
   ],
@@ -171,7 +171,7 @@ const eventList = {
       "name": "ACCIO LA NOCIEN",
       "time": "4 PM - 6 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/5Us54QTy62CMNCUd6",
       "more": ""
     }
   ],
