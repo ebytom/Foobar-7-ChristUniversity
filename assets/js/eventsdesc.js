@@ -8,8 +8,9 @@ const events = {
         group:"yes",
         date:"Feb 8",
         time:"4:15 pm – 5:45 pm",
-        venue:"Lab",
+        venue:"345, Block II",
         club:"Coders Club",
+        poster: "",
         desc:"Break the query – a DBMS event to put your query solving skills to the test",
         plan:"The event will consist of 2 rounds. The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
         Rubrics:[
@@ -43,7 +44,7 @@ const events = {
         contact:{
             name:"Alan Sabu Mathew",
             design:"Club head-Coders Club",
-            phno:8904652571,
+            phno: "+91 8904652571",
             email:"alan.mathew@btech.christuniveristy.in"
         }
     }
