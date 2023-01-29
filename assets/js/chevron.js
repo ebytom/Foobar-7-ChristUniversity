@@ -35,27 +35,27 @@ const events ={
   "tech": [
       "Break the query",
       "Codeathon",
-      "UI UX",
+      "Illustra",
       "AI Hackathon",
       "Ideathon",
-      "Short game dev",
+      "Short Game Development",
       "CSS Battle",
       "Tech Quiz",
-      "Web Dev"
+      "Web Development"
   ],
   "nontech": [
-      "Blind Line Typping",
-      "Movie/Anime Quiz",
+      "Blind Typing",
+      "Flix N Manga",
       "Ace Clutch",
-      "Image brush",
+      "Image Brush",
       "Poster"
   ],
   "workshop":[
-      "Webdev",
-      "Research",
-      "Gaming",
+      "Web Development",
+      "Game Development",
       "Java Programming",
-      "C Programming"
+      "C Programming",
+      "Research"
   ]
 }
 // import events from './events.json'

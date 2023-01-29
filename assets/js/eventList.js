@@ -20,7 +20,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "Open Audi",
       "register": "https://forms.gle/Zdng2YqDUob2vYh28",
-      "more": ""
+      "more": "event.html?event=openmic"
     }
   ],
   "seven": [
@@ -30,7 +30,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/KAp4ERDtBzBLaXwL6",
-      "more": ""
+      "more": "event.html?event=aihackathon"
     }
   ],
   "eight": [
@@ -40,7 +40,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/4uipUXZzcTAyomL47",
-      "more": ""
+      "more": "event.html?event=breakthequery"
     }
   ],
   "nine": [
@@ -50,7 +50,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/hRJEKMbe4sBo5XjMA",
-      "more": ""
+      "more": "event.html?event=codeathon"
     }
   ],
   "ten": [
@@ -60,7 +60,7 @@ const eventList = {
       "time": "1 PM",
       "venue": "",
       "register": "https://forms.gle/oMhrSXaodaFe6EYF9",
-      "more": ""
+      "more": "event.html?event=webally"
     },
     {
       "id": "blind",
@@ -68,7 +68,7 @@ const eventList = {
       "time": "2 PM - 4 PM",
       "venue": "",
       "register": "https://forms.gle/kpkvRDHMNGVejeUi7",
-      "more": ""
+      "more": "event.html?event=blindtyping"
     },
     {
       "id": "ideathon",
@@ -76,7 +76,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/wJP7ZkktAWFFLyZ36",
-      "more": ""
+      "more": "event.html?event=ideathon"
     }
   ],
   "eleven": [
@@ -86,7 +86,7 @@ const eventList = {
       "time": "10 PM - 4 PM",
       "venue": "",
       "register": "",
-      "more": ""
+      "more": "event.html?event=aceclutch"
     }
   ],
   "tweleve": [
@@ -102,7 +102,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/MdH5oZED5BVrstwg8",
-      "more": ""
+      "more": "event.html?event=imagebrush"
     }
   ],
   "fourteen": [
@@ -112,7 +112,7 @@ const eventList = {
       "time": "2 PM - 4 PM",
       "venue": "",
       "register": "https://forms.gle/JdbweAN2XhjreXou8",
-      "more": ""
+      "more": "event.html?event=gamedevelopment"
     },
     {
       "id": "flix",
@@ -120,7 +120,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/KJF9j3QGJLUcU4v5A",
-      "more": ""
+      "more": "event.html?event=flixnmanga"
     }
   ],
   "fifteen": [
@@ -130,7 +130,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/Q8ioT35J7Aybjbpx7",
-      "more": ""
+      "more": "event.html?event=illustra"
     }
   ],
   "sixteen": [
@@ -140,7 +140,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/fTD8DzgAsz9d6RyZ8",
-      "more": ""
+      "more": "event.html?event=cssbattle"
     }
   ],
   "seventeen": [
@@ -150,7 +150,7 @@ const eventList = {
       "time": "2 PM - 4 PM",
       "venue": "OPen Audi",
       "register": "https://forms.gle/GW4jrHXvGkgaXngD6",
-      "more": ""
+      "more": "event.html?event=teckquiz"
     }
   ],
   "eighteen": [
@@ -172,7 +172,7 @@ const eventList = {
       "time": "4 PM - 6 PM",
       "venue": "",
       "register": "https://forms.gle/5Us54QTy62CMNCUd6",
-      "more": ""
+      "more": "event.html?event=acciolanocien"
     }
   ],
   "twentyone": [
@@ -187,7 +187,7 @@ const eventList = {
       "time": "",
       "venue": "",
       "register": "",
-      "more": ""
+      "more": "event.html?event=javaworkshop"
     }
   ],
   "twentythree": [
@@ -197,7 +197,7 @@ const eventList = {
       "time": "",
       "venue": "",
       "register": "",
-      "more": ""
+      "more": "event.html?event=javaworkshop"
     }
   ],
   "twentyfour": [
@@ -207,7 +207,7 @@ const eventList = {
       "time": "",
       "venue": "",
       "register": "",
-      "more": ""
+      "more": "event.html?event=cworkshop"
     }
   ],
   "twentyfive": [
@@ -217,7 +217,7 @@ const eventList = {
       "time": "",
       "venue": "",
       "register": "",
-      "more": ""
+      "more": "event.html?event=cworkshop"
     }
   ],
   "twentysix": [
@@ -233,7 +233,7 @@ const eventList = {
       "time": "",
       "venue": "",
       "register": "",
-      "more": ""
+      "more": "event.html?event=webdevworkshop"
     }
   ]
 }
@@ -282,11 +282,13 @@ for (const [key, value] of Object.entries(eventList)) {
 
 
       //
-      var atag1 = document.createElement("span");
+      var atag1 = document.createElement("a");
+      atag1.classList.add("atagwhite");
       atag1.setAttribute('href', event.register)
       atag1.innerText = "Register"
 
-      var atag2 = document.createElement("span");
+      var atag2 = document.createElement("a");
+      atag2.classList.add("atagwhite");
       atag2.setAttribute('href', event.more)
       atag2.innerText = "More Info"
 
