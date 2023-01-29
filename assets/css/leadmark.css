@@ -11874,6 +11874,9 @@ textarea.form-control {
 .tac{
   text-align: center;
 }
+.cunset{
+  cursor: unset;
+}
 .clubname{
   font-size: 12px;
   margin: 10px 0;
