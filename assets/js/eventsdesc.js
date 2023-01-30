@@ -22,11 +22,12 @@ const events = {
         contact:[
             {
             name:"Jerrin Jays",
-            design:"Club head-Design Club",
+            design:"Club Head, Design Club",
             phno: "aaaa",
             email:"aaaa"
         }
-    ]
+    ],
+    register:"https://forms.gle/5Us54QTy62CMNCUd6"
     },
     aihackathon:{
         name:"AI Hackathon",
@@ -60,7 +61,8 @@ const events = {
                 phno: "+91 9347132570",
                 email:"aaaa"
             }
-        ]
+        ],
+        register:"https://forms.gle/K4rU3ycV1QCgnR1k9"
     },
     blindtyping:{
         name:"Blind Typing",
@@ -93,7 +95,8 @@ const events = {
                 phno: "+91 7259841140",
                 email:"+91 9072381106"
             }
-        ]
+        ],
+        register:"https://forms.gle/kpkvRDHMNGVejeUi7"
     },
     breakthequery:{
         name:"Break the query",
@@ -126,7 +129,8 @@ const events = {
                 phno: "+91 8904652571",
                 email:"alan.mathew@btech.christuniveristy.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/4uipUXZzcTAyomL47"
     },
     codeathon:{
         name:"Codeathon",
@@ -161,7 +165,8 @@ const events = {
                 phno: "+91 7625015757",
                 email:"suhaas.joshi@btech.christuniversity.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/3DHcQpFnHbA9aSsF6"
     },
     cssbattle:{
         name:"CSS-Battle",
@@ -190,7 +195,8 @@ const events = {
                 phno: "+91 9074660438",
                 email:"alan.p@btech.christuniveristy.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/fTD8DzgAsz9d6RyZ8"
     },
     flixnmanga:{
         name:"Flix N Manga",
@@ -230,7 +236,8 @@ const events = {
                 phno: "+91 9446222358",
                 email:"@btech.christuniveristy.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/bs1AhGceLpTvLiwD7"
     },
     gamedevelopment:{
         name:"KB Games",
@@ -260,7 +267,8 @@ const events = {
                 phno: "+91 7679349724",
                 email:"priyanshu.biswas@btech.christuniveristy.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/JdbweAN2XhjreXou8"
     },
     ideathon:{
         name:"Ideathon",
@@ -297,7 +305,8 @@ const events = {
                 phno: "+91 8104392202",
                 email:"aaaa"
             }
-        ]
+        ],
+        register:"https://forms.gle/dQHaRng7hrkmrU8x8"
     },
     illustra:{
         name:"Illustra",
@@ -332,7 +341,8 @@ const events = {
                 phno: "+91 aaaa",
                 email:"aaaa"
             }
-        ]
+        ],
+        register:"https://forms.gle/Q8ioT35J7Aybjbpx7"
     },
     imagebrush:{
         name:"Image Brush",
@@ -362,7 +372,8 @@ const events = {
                 phno: "x",
                 email:"x@btech.christuniveristy.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/VAuj9Lvn3GbDL6tT7"
     },
     openmic:{
         name:"Open Mic",
@@ -388,7 +399,8 @@ const events = {
             design:"Club Coordinator",
             phno: "9845199783",
             email:""
-        }
+        },
+        register:"https://forms.gle/Zdng2YqDUob2vYh28"
     },
     techquiz:{
         name:"Tech Quiz",
@@ -421,7 +433,8 @@ const events = {
                 phno: "",
                 email:"@btech.christuniveristy.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/GW4jrHXvGkgaXngD6"
     },
     webally:{
         name:"Webally",
@@ -455,7 +468,8 @@ const events = {
                 phno: "+91 8547520864",
                 email:"eby.tom@btech.christuniveristy.in"
             }
-        ]
+        ],
+        register:"https://forms.gle/oMhrSXaodaFe6EYF9"
     },
 }
 
@@ -472,7 +486,7 @@ document.getElementById("eventvenue").innerText = currentevent.venue;
 document.getElementById("eventsize").innerText = currentevent.eventsize;
 document.getElementById("eventtype").innerText = currentevent.type;
 document.getElementById("eventrounds").innerText = `${currentevent.rounds} rounds`;
-document.getElementById("regbtn").setAttribute("onclick",`window.location.href=${currentevent.register}`)
+document.getElementById("regbtn").setAttribute("onclick",`window.location.href='${currentevent.register}'`)
 
 document.getElementById("eventactionplan").innerHTML = currentevent.plan;
 
