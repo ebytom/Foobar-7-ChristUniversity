@@ -472,6 +472,7 @@ document.getElementById("eventvenue").innerText = currentevent.venue;
 document.getElementById("eventsize").innerText = currentevent.eventsize;
 document.getElementById("eventtype").innerText = currentevent.type;
 document.getElementById("eventrounds").innerText = `${currentevent.rounds} rounds`;
+document.getElementById("regbtn").setAttribute("onclick",`window.location.href=${currentevent.register}`)
 
 document.getElementById("eventactionplan").innerHTML = currentevent.plan;
 

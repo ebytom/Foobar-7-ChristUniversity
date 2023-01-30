@@ -38,3 +38,15 @@
 {
     opacity: 1;
 }
+.regbttn{
+    align-items: center;
+}
+.regbttn h6{
+    margin-right: 20px;
+}
+.bttn{
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+}
