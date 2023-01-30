@@ -485,7 +485,7 @@ currentevent.rules.map(rule=>{
 
 document.getElementById("eventposter").setAttribute('src',currentevent.poster);
 
-document.getElementById("eventcontactname").innerText = currentevent.contact.name;
-document.getElementById("eventcontactdesign").innerText = currentevent.contact.design;
-document.getElementById("eventcontactnumber").innerText = currentevent.contact.phno;
-document.getElementById("eventcontactemail").innerText = currentevent.contact.email;
+document.getElementById("eventcontactname").innerText = currentevent.contact[0].name;
+document.getElementById("eventcontactdesign").innerText = currentevent.contact[0].design;
+document.getElementById("eventcontactnumber").innerText = currentevent.contact[0].phno;
+document.getElementById("eventcontactemail").innerText = currentevent.contact[0].email;
