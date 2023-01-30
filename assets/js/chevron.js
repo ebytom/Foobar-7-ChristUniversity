@@ -33,29 +33,94 @@ window.onload = () => {
 
 const events ={
   "tech": [
-      "Break the query",
-      "Codeathon",
-      "Illustra",
-      "AI Hackathon",
-      "Ideathon",
-      "Short Game Development",
-      "CSS Battle",
-      "Tech Quiz",
-      "Web Development"
+    {
+      id:"breakthequery",
+      name:"Break the query"
+    },
+    {
+      id:"codeathon",
+      name:"Codeathon"
+    },
+    {
+      id:"illustra",
+      name:"Illustra"
+    },
+    {
+      id:"aihackathon",
+      name:"AI Hackathon"
+    },
+    {
+      id:"ideathon",
+      name:"Ideathon"
+    },
+    {
+      id:"gamedevelopment",
+      name:"KB Games"
+    },
+    {
+      id:"cssbattle",
+      name:"CSS Battle"
+    },
+    {
+      id:"techquiz",
+      name:"Tech Quiz"
+    },
+    {
+      id:"webally",
+      name:"Webally"
+    }
   ],
   "nontech": [
-      "Blind Typing",
-      "Flix N Manga",
-      "Ace Clutch",
-      "Image Brush",
-      "Poster"
+    {
+      id:"blindtyping",
+      name:"Blind Typing"
+    },
+    {
+      id:"openmic",
+      name:"Open Mic"
+    },
+    {
+      id:"flixnmanga",
+      name:"Flix N Manga"
+    },
+    {
+      id:"aceclutch",
+      name:"Ace Clutch"
+    },
+    {
+      id:"imagebrush",
+      name:"Image Brush"
+    },
+    {
+      id:"acciolanocien",
+      name:"Accio La Nocien"
+    }
   ],
   "workshop":[
-      "Web Development",
-      "Game Development",
-      "Java Programming",
-      "C Programming",
-      "Research"
+    {
+      id:"webdevworkshop",
+      name:"Web Development"
+    }
+    ,
+    {
+      id:"gamedevworkshop",
+      name:"Game Development"
+    }
+    ,
+    {
+      id:"javaworkshop",
+      name:"Java Programming"
+    }
+    ,
+    {
+      id:"cworkshop",
+      name:"C Programming"
+    }
+    ,
+    {
+      id:"researchworkshop",
+      name:"Research"
+    }
   ]
 }
 // import events from './events.json'
@@ -63,16 +128,16 @@ console.log(events);
 // const events = require('../json/events.json');
 
 events.tech.map(event=>{
-  var elem = `<div class="elecard"><a>${event}<a></div>`
+  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`
   document.getElementById('childdiv1').innerHTML += elem;
 })
 
 events.nontech.map(event=>{
-  var elem = `<div class="elecard">${event}</div>`
+  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`
   document.getElementById('childdiv2').innerHTML += elem;
 })
 
 events.workshop.map(event=>{
-  var elem = `<div class="elecard">${event}</div>`
+  var elem = `<div onclick="window.location.href ='event.html?event=${event.id}';" class="elecard">${event.name}</div>`
   document.getElementById('childdiv3').innerHTML += elem;
 })

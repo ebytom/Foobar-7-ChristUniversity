@@ -44,3 +44,9 @@
   margin-right: .1rem;
   background-color: #2a2a2a;
 }
+.atagwhite{
+  color: white;
+}
+.atagwhite:hover{
+  color: white;
+}

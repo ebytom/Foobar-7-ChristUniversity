@@ -257,11 +257,17 @@ for (const [key, value] of Object.entries(eventList)) {
     var child = document.createElement("li");
     child.setAttribute('class', 'events__item')
 
-    if (event.type != undefined && event.type == "noevent") {
+    if ((event.type != undefined && event.type == "noevent") || event.id == "inauguration"){
       const h3h3 = document.createElement('h3');
       h3h3.setAttribute('class', 'noevents__title')
-      h3h3.innerText = "No events found";
+      if (event.id == "inauguration") {
+        h3h3.innerText = "INAUGURATION";
       child.appendChild(h3h3);
+      } else {
+        h3h3.innerText = "No events found";
+        child.appendChild(h3h3);
+      }
+      
 
     } else {
 
@@ -292,12 +298,14 @@ for (const [key, value] of Object.entries(eventList)) {
       atag2.setAttribute('href', event.more)
       atag2.innerText = "More Info"
 
-      var spantag2a = document.createElement("span");
+      var spantag2a = document.createElement("div");
       spantag2a.setAttribute('class', 'events__tag regbtn')
+      spantag2a.setAttribute('onclick', `window.location.href="${event.register}"`)
       spantag2a.appendChild(atag1);
 
-      var spantag2b = document.createElement("span");
+      var spantag2b = document.createElement("div");
       spantag2b.setAttribute('class', 'events__tag regbtn')
+      spantag2b.setAttribute('onclick', `window.location.href="${event.more}"`)
       spantag2b.appendChild(atag2);
 
       var divtag2 = document.createElement("div");
