@@ -85,7 +85,7 @@ const eventList = {
       "name": "ACE CLUTCH",
       "time": "10 PM - 4 PM",
       "venue": "",
-      "register": "",
+      "register": "https://forms.gle/MHHA2dtinKRRGxUD6",
       "more": "event.html?event=aceclutch"
     }
   ],
