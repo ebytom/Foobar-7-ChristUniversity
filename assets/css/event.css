@@ -1,8 +1,11 @@
 .br8{
     border-radius: 8px;
+    padding: 10px 0;
     width: 132px;
 }
 .detailcard{
+    width: min-content;
+    min-width: 80%;
     background-color: #00262c;
     color: white;
     padding: 20px;
@@ -20,7 +23,7 @@
     display: contents;
 }
 .eventposters img{
-    width: 70%;
+    width: 80%;
     margin-bottom: 30px;
 }
 .infocard
@@ -51,4 +54,10 @@
     padding-right: 10px;
     background-color: red;
     cursor: pointer;
+}
+.fs-14{
+    font-size: 14px;
+}
+#eventrules li{
+    font-size: 14px;
 }
