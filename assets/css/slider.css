@@ -411,6 +411,7 @@ header {
 	background-color: #ff6e42;
 	margin-bottom: 5px;
 	font-size: 12px;
+	user-select: none;
 }
 
 .regbtn:hover {

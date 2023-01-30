@@ -45,6 +45,7 @@
     margin-right: 20px;
 }
 .bttn{
+    user-select: none;
     width: max-content;
     padding-left: 10px;
     padding-right: 10px;
