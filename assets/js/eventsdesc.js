@@ -176,7 +176,7 @@ const events = {
         club:"Web Development Club",
         poster: "assets/imgs/pos1.png",
         desc:"CSS Battle is an individual event in which each participant have to recreate the given design using HTML, CSS. It contains 2 rounds.",
-        plan:"Round 1 (10 - 20)- basic design ( logical round )10 min break to set up round 2.Round 2 - frontend mentor web page component designing.Designs for both events will be given on the spot to avoid cheating.",
+        plan:"Round 1 (10 - 20)- basic design ( logical round ) <BR>10 min break to set up round 2. <br>Round 2 - frontend mentor web page component designing. <br>Designs for both events will be given on the spot to avoid cheating.",
         rules:[
             "Recreate the given design using HTML, CSS only. Do not use any other software or resort to malpractices. If found violating this rule, straight disqualification.",
             "Stick to the given time limit. Exceeding the time limit in the first round will lead to disqualification.",
@@ -473,7 +473,7 @@ document.getElementById("eventsize").innerText = currentevent.eventsize;
 document.getElementById("eventtype").innerText = currentevent.type;
 document.getElementById("eventrounds").innerText = `${currentevent.rounds} rounds`;
 
-document.getElementById("eventactionplan").innerText = currentevent.plan;
+document.getElementById("eventactionplan").innerHTML = currentevent.plan;
 
 
 const eventrules = document.getElementById('eventrules')
