@@ -1,80 +1,66 @@
 const events = {
-    breakthequery:{
-        name:"Break the query",
-        tagline:"Query to Victory",
-        rounds:2,
-        duration:"Round 1- 30 mins, Round 2-45mins",
-        type:"Technical",
+    acciolanotion:{
+        name:"Accio la Notion",
+        tagline:"Summon your ideas",
+        rounds:1,
+        duration:"2 hr",
+        type:"Non-Technical",
         eventsize:"Team Event",
-        date:"Feb 8",
-        time:"4:15PM – 5:45PM",
-        venue:"345, Block II",
-        club:"Coders Club",
+        date:"aaaa",
+        time:"aaaa",
+        venue:"aaaa",
+        club:"Design Club",
         poster: "assets/imgs/pos1.png",
-        desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"The event will consist of 2 rounds. The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
-        rubrics:[
-            {
-                round:1,
-                name:"Aptitude round",
-                desc:[
-                    "Top 10 teams will qualify for the next round",
-                    "In case of a tie the team that submits the solution first wins."
-                ]
-            },
-            {
-                round:2,
-                name:"Solving queries",
-                desc:[
-                    "On solving the query the corresponding score will be awarded",
-                    "The team that scores the most points wins"
-                ]
-            }
-        ],
+        desc:"Students are to make a poster using Canva on a topic that will be provided by the organizers. They will have 2 hours of time during which they make the poster and explain the concept.",
+        plan:"Only 1 round, top 2 selected. Google form will be given where participants will upload an editable Canva link and a paragraph on their poster concept.",
         rules:[
-            "Each team will consist of 2 members.",
-            "All participants must report to the venue 5 minutes before the competition begins. Latecomers will not be entertained. ",
-            "Questions can be attempted in any order.",
-            "Participants must bring their own laptops. A team must have only one laptop between both members.",
-            "No extensions to the deadline will be provided.",
-            "Participants are allowed to use OracleDB/PostgreSQL/MySQL. Participants have to ensure that they have it installed prior to the competition.",
-            "Participants will be provided an additional 5 minutes after the allotted time to submit the spool files and presentation for the queries to be judged.",
-            "Usage of the internet and other reference materials, or any other form of malpractice, will lead to disqualification."
+            "Participants must bring their own laptops with charging cables if necessary.",
+            "Laptops must be configured to student Wi-fi for using Canva. ",
+            "Mobile phones not allowed at the venue.",
+            "Plagiarism not allowed, Canva templates must NOT be used.",
         ],
-        contact:{
-            name:"Alan Sabu Mathew",
-            design:"Club head-Coders Club",
-            phno: "+91 8904652571",
-            email:"alan.mathew@btech.christuniveristy.in"
+        contact:[
+            {
+            name:"Jerrin Jays",
+            design:"Club head-Design Club",
+            phno: "aaaa",
+            email:"aaaa"
         }
+    ]
     },
-    gamedevelopment:{
-        name:"KB Games",
-        tagline:"Stop playing start developing",
-        rounds: 1,
-        duration:"2 days",
+    aihackathon:{
+        name:"AI Hackathon",
+        tagline:"aaaa",
+        rounds:2,
+        duration:"Round 1 - 2-3 hrs",
         type:"Technical",
-        eventsize:"x",
-        date:"Feb 14",
-        time:"2:00PM – 4:00PM",
-        venue:"x",
-        club:"Game Development Club",
+        eventsize:"Team 2-4",
+        date:"aaaa",
+        time:"aaaa",
+        venue:"aaaa",
+        club:"Neuron Club",
         poster: "assets/imgs/pos1.png",
-        desc:"This is to develop the skills towards game development club and also to develop the awareness of game development to students.",
-        plan:"This event will be conducted via online mode where the topics or theme for developing the game will be given to participants after the registration is done. Then a two-day limit of time is given to the participants to develop their game and submit it in a drive. ",
+        desc:"This event provides students an opportunity to solve real world data challenges by applying artificial intelligence and machine learning.",
+        plan:"aaaa",
         rules:[
-            "A plagiarism check will be done for the developed game.",
-            "Reference from other sources is acceptable, but not the whole code or the same copy.",
-            "No participants are encouraged to discuss their ideas with other participants during the competition.",
-            "The game should be developed with software like unity or unreal engine.",
-            "The code and a sample video of your game which should describe the workings and flow game must be submitted before the death line of the competition."
+            "Contestants are required to write their own code.",
+            "All ideas, codes and execution should be developed within the time frame given to them.",
+            "Teams can have 2- 4 people.",
+            "Adhere to the time limits.",
+            "Try to put comments in your code to make it easy to understand.",
+            "Judging criteria is the ROC curve of the model and code efficiency, structure and documentation(Making code more understandable).",
+            "The participant should have an appropriate IDE installed in their system before the competition begins.",
+            "No participant other than the registered ones can take part in the AI Hackathon. The team will be disqualified if any discrepancies are found.",
+            "Plagiarism of the code is strictly prohibited, if found the team will be disqualified.",
         ],
-        contact:{
-            name:"Priyanshu Biswas",
-            design:"Club Head - Game Development Club",
-            phno: "+91 7679349724",
-            email:"priyanshu.biswas@btech.christuniveristy.in"
-        }
+        contact:[
+            {
+                name:"B Uday Satya Sai",
+                design:"Club head-Neuron Club",
+                phno: "+91 9347132570",
+                email:"aaaa"
+            }
+        ]
     },
     blindtyping:{
         name:"Blind Typing",
@@ -100,12 +86,253 @@ const events = {
             "No participant will type their name or registration number.",
             "Any form of malpractice will be viewed seriously."
         ],
-        contact:{
-            name:"Krishna Sreekumar",
-            design:"Club Head - Coders Club",
-            phno: "+91 7259841140",
-            email:"+91 9072381106"
-        }
+        contact:[
+            {
+                name:"Krishna Sreekumar",
+                design:"Club Head - Coders Club",
+                phno: "+91 7259841140",
+                email:"+91 9072381106"
+            }
+        ]
+    },
+    breakthequery:{
+        name:"Break the query",
+        tagline:"Query to Victory",
+        rounds:2,
+        duration:"Round 1- 30 mins, Round 2-45mins",
+        type:"Technical",
+        eventsize:"Team Event",
+        date:"Feb 8",
+        time:"4:15PM – 5:45PM",
+        venue:"345, Block II",
+        club:"Coders Club",
+        poster: "assets/imgs/pos1.png",
+        desc:"Break the query – a DBMS event to put your query solving skills to the test",
+        plan:"The event will consist of 2 rounds. The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
+        rules:[
+            "Each team will consist of 2 members.",
+            "All participants must report to the venue 5 minutes before the competition begins. Latecomers will not be entertained. ",
+            "Questions can be attempted in any order.",
+            "Participants must bring their own laptops. A team must have only one laptop between both members.",
+            "No extensions to the deadline will be provided.",
+            "Participants are allowed to use OracleDB/PostgreSQL/MySQL. Participants have to ensure that they have it installed prior to the competition.",
+            "Participants will be provided an additional 5 minutes after the allotted time to submit the spool files and presentation for the queries to be judged.",
+            "Usage of the internet and other reference materials, or any other form of malpractice, will lead to disqualification."
+        ],
+        contact:[
+            {
+                name:"Alan Sabu Mathew",
+                design:"Club head-Coders Club",
+                phno: "+91 8904652571",
+                email:"alan.mathew@btech.christuniveristy.in"
+            }
+        ]
+    },
+    codeathon:{
+        name:"Codeathon",
+        tagline:"codeathon",
+        rounds:1,
+        duration:"Round 1: 1hr 15mins",
+        type:"Technical",
+        eventsize:"Team : 2/team",
+        date:"aaaa",
+        time:"4:15PM – 5:30PM",
+        venue:"aaaa",
+        club:"Coders Club",
+        poster: "assets/imgs/pos1.png",
+        desc:"Put your coding skills to the test as you work your way through multiple problems of algorithmic puzzles within the allotted time, in any language of your choice. The ingredients of victory are precision of solution, logical thinking skills, and speed.",
+        plan:"Usage of online compilers/internet and other reference materials, or any other form of malpractice, will lead to disqualification",
+        rules:[
+            "Each team will consist of 2 members.",
+            "All participants must report to the venue 5 minutes before the competition is scheduled to begin. Latecomers will not be entertained.",
+            "The problem sheet will be distributed at the start of the event.",
+            "Participants can submit a solution to a particular problem only once. If it turns out to be incorrect, another solution to the same problem will not be accepted.",
+            "The time of submission will be noted. It will be used for breaking ties if any.",
+            "Questions can be attempted in any order.",
+            "Participants must bring their own laptops. A team must have only one laptop between both members.",
+            "No extensions to the deadline will be provided.",
+            "Participants are expected to use any offline text editor (eg-Visual Studio Code, BlueJ, Spyder, DevC++, etc). Participants must ensure that the text editor and compilers are installed beforehand.",
+            "Usage of online compilers/internet and other reference materials, or any other form of malpractice, will lead to disqualification.",
+        ],
+        contact:[
+            {
+                name:"Suhaas Joshi",
+                design:"Club head-Coders Club",
+                phno: "+91 7625015757",
+                email:"suhaas.joshi@btech.christuniversity.in"
+            }
+        ]
+    },
+    cssbattle:{
+        name:"CSS-Battle",
+        tagline:"Put your CSS design skills on test in the battlefield",
+        rounds:2,
+        duration:"Round 1: 15-20mins,Round 2: 45mins",
+        type:"Technical",
+        eventsize:"Individual Event",
+        date:"Feb 16",
+        time:"4:15 pm – 5:45 pm",
+        venue:"242 Lab, Block II",
+        club:"Web Development Club",
+        poster: "assets/imgs/pos1.png",
+        desc:"CSS Battle is an individual event in which each participant have to recreate the given design using HTML, CSS. It contains 2 rounds.",
+        plan:"Round 1 (10 - 20)- basic design ( logical round )10 min break to set up round 2.Round 2 - frontend mentor web page component designing.Designs for both events will be given on the spot to avoid cheating.",
+        rules:[
+            "Recreate the given design using HTML, CSS only. Do not use any other software or resort to malpractices. If found violating this rule, straight disqualification.",
+            "Stick to the given time limit. Exceeding the time limit in the first round will lead to disqualification.",
+            "Unnecessary calling/any sort of indiscipline during the event will not be entertained.",
+            "Should have no third-party software running in the background, etc.",
+        ],
+        contact:[
+            {
+                name:"Alan P Sunny",
+                design:"Club Head - Web Development Club",
+                phno: "+91 9074660438",
+                email:"alan.p@btech.christuniveristy.in"
+            }
+        ]
+    },
+    flixnmanga:{
+        name:"Flix N Manga",
+        tagline:"flixnmanga",
+        rounds:"",
+        duration:"",
+        type:"",
+        eventsize:"",
+        date:"aaaa",
+        time:"aaaa",
+        venue:"",
+        club:"Coders Club",
+        poster: "assets/imgs/pos1.png",
+        desc:"Break the query – a DBMS event to put your query solving skills to the test",
+        plan:"",
+        rules:[
+            "Team formation should be made as per the contestant's choice, and there will be no changes in team players or swapping players from another team when the event starts. Strictly adhere to your team's motive. And it is kindly suggested that no request of changing team players at the eleventh minute as it may charge removal of the team.",
+            "For every team, there will be a team captain and team name. [ For example Players (Kush, Manish, Vikram) Team name (Team Marvel) Team Captain (Manish). All of this needs to be filled during team registration, registration will be done through Google Forms.",
+            "Important Event rule: No internet Browsing.",
+            "Preliminary round ground rules: ",
+            "After 5-10 mins of the event, team captains will be provided with Google forms (through emails/ chats) ONLY TEAM CAPTAINS. It is the duty of both team members and the captain to coordinate among themselves for playing this first round. (IF THE TEAM LOSES, THEY WILL NOT BE ABLE TO PLAY the main event).",
+            "Prelim round starts with the confirmation of all team captains, Prelim round will have basic 20 questions each marked as 1pt. Questions will be on pop culture, scheme of difficulty- Medium.",
+            "Time Span: 5 Mins",
+            "The Main doubt: What will be the elimination process? -> For me to say, the team who lacks teamwork may only lose. Not the team who scores fewer points. As you can see, the time span is less and if the team coordinates well they can score well. The relative scoring will be considered. If any team scores 17pts, it will be considered the highest, and teams having the lowest score will be directly eliminated. (If there are 15 teams participating, according to event protocol, a maximum of 4 teams will be eliminated.) It means the elimination ratio is less.",
+            "Final Round: ( Rapid Fire ) Total questions/team. Each team will be given 1min time, the alternative question will be asked example the first will be from movies and the next will be from anime and the cycle repeats until the timer hits 1min. The team with the most correct answers will be the winning team."
+        ],
+        contact:[
+            {
+                name:"B Uday Satya Sai",
+                design:"Club Head - Web Development Club",
+                phno: "+91 9347132570",
+                email:"@btech.christuniveristy.in"
+            },
+            {
+                name:"Jerrin Jays",
+                design:"Club Head - Design Club",
+                phno: "+91 9446222358",
+                email:"@btech.christuniveristy.in"
+            }
+        ]
+    },
+    gamedevelopment:{
+        name:"KB Games",
+        tagline:"Stop playing start developing",
+        rounds: 1,
+        duration:"2 days",
+        type:"Technical",
+        eventsize:"x",
+        date:"Feb 14",
+        time:"2:00PM – 4:00PM",
+        venue:"x",
+        club:"Game Development Club",
+        poster: "assets/imgs/pos1.png",
+        desc:"This is to develop the skills towards game development club and also to develop the awareness of game development to students.",
+        plan:"This event will be conducted via online mode where the topics or theme for developing the game will be given to participants after the registration is done. Then a two-day limit of time is given to the participants to develop their game and submit it in a drive. ",
+        rules:[
+            "A plagiarism check will be done for the developed game.",
+            "Reference from other sources is acceptable, but not the whole code or the same copy.",
+            "No participants are encouraged to discuss their ideas with other participants during the competition.",
+            "The game should be developed with software like unity or unreal engine.",
+            "The code and a sample video of your game which should describe the workings and flow game must be submitted before the death line of the competition."
+        ],
+        contact:[
+            {
+                name:"Priyanshu Biswas",
+                design:"Club Head - Game Development Club",
+                phno: "+91 7679349724",
+                email:"priyanshu.biswas@btech.christuniveristy.in"
+            }
+        ]
+    },
+    ideathon:{
+        name:"Ideathon",
+        tagline:"Bringing creativity to life through collaborative ideation.",
+        rounds: 1,
+        duration:"2 hr",
+        type:"Technical",
+        eventsize:"x",
+        date:"Feb 10",
+        time:"4PM - 6PM",
+        venue:"aaaa",
+        club:"Neuron Club",
+        poster: "assets/imgs/pos1.png",
+        desc:"",
+        plan:"The Ideathon will have two themes - Web3 and AI. The team can propose any conceptual ideas or the research/survey done by the group, which gives some conclusions related to the theme considered. This event is to prepare yourself to build the confidence for pitching your ideas and get some suggestions from the judges to take further steps to reach the goal of your opinion. This event will let you get the experience of teamwork and reduce the stage fear. There should be genuine problems and solutions related to the theme. The format of the presentation to present will be shared for reference. Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. The event will be in offline mode.",
+        rules:[
+            "The participant's team size must be 2-5.",
+            "Each team must have a unique team name.",
+            "The team description must define the team efforts behind your idea or research. And each team member must also have a defined and equal contribution while presenting.",
+            "The format of the ppt must be maintained. It can include additional information per the idea you are pitching.",
+            "Reference links or details should mention in the Presentation.",
+            "Please note the details of platforms or events where they raised the same idea of what they will pitch in this ideation.",
+            "For the Presentation, 15 min will be provided, and another 15 min will be contributed for prototype presenting and Q&A. So please prepare your team as per that.",
+            "The judgment criteria will depend on the problem you analyzed, the proposed solution, and the implementation plans. The questions asked by the judges will have some weightage in the evaluation.",
+            "The scoring will be done out of 50 - 20 for the problem analyzed, 15 for a solution, 10 for Q & A, and 5 for implementation plans and team presentation performance. The team with the highest score wins",
+            "No participant other than the registered ones can participate in Ideathon. The team will get disqualified if any discrepancies are found.",
+            "Plagiarism of the idea or any thesis is strictly prohibited. If found, the team will be disqualified. Suppose any reference. It is mandatory to include the detail of it (URLs, the Research paper/literature survey name, and the publisher's name).",
+            "The ideas apart from the theme given will not be considered. (the idea should be related to the theme provided).",
+        ],
+        contact:[
+            {
+                name:"Jainam Purushotam Patel",
+                design:"Club Head - Neuron Club",
+                phno: "+91 8104392202",
+                email:"aaaa"
+            }
+        ]
+    },
+    illustra:{
+        name:"Illustra",
+        tagline:"Our idea, your Design.",
+        rounds: 1,
+        duration:"2 hrs",
+        type:"Technical",
+        eventsize:"Individual Event",
+        date:"Feb 15",
+        time:"4PM - 6PM",
+        venue:"aaaa",
+        club:"Design Club",
+        poster: "assets/imgs/pos1.png",
+        desc:"Students are given 2 topics based on which they are to create an interactive prototype on Canva or Figma.",
+        plan:"Only 1 round, top 2 selected.",
+        rules:[
+            "Participant must bring own laptop with charging cable if necessary",
+            "Must be configured to student Wi-fi if using Canva",
+            "Mobile phones not allowed at the venue",
+            "Plagiarism not allowed, using Canva templates NOT allowed",
+        ],
+        contact:[
+            {
+                name:"Jerrin Jays",
+                design:"Club Head - Design Club",
+                phno: "+91 9446222358",
+                email:"aaaa"
+            },
+            {
+                name:"Suneel Sachdeva",
+                design:"Club Head - Design Club",
+                phno: "+91 aaaa",
+                email:"aaaa"
+            }
+        ]
     },
     imagebrush:{
         name:"Image Brush",
@@ -128,12 +355,14 @@ const events = {
             "Plagiarism is not allowed",
             "No editing allowed to the given images (to be used as brushes) other than resizing, rotating and making copies"
         ],
-        contact:{
-            name:"Jerrin Jays",
-            design:"Club Head - Design Club",
-            phno: "x",
-            email:"x@btech.christuniveristy.in"
-        }
+        contact:[
+            {
+                name:"Jerrin Jays",
+                design:"Club Head - Design Club",
+                phno: "x",
+                email:"x@btech.christuniveristy.in"
+            }
+        ]
     },
     openmic:{
         name:"Open Mic",
@@ -161,161 +390,73 @@ const events = {
             email:""
         }
     },
-    xxxxx:{
-        name:"",
+    techquiz:{
+        name:"Tech Quiz",
         tagline:"",
-        rounds:"",
-        duration:"",
+        rounds:3,
+        duration:"2 hrs",
         type:"",
-        eventsize:"",
-        date:"Feb 8",
-        time:"4:15 pm – 5:45 pm",
-        venue:"",
-        club:"Coders Club",
+        eventsize:"Team 4/team",
+        date:"Feb 17",
+        time:"2PM - 4PM",
+        venue:"2nd block 3rd floor Seminar Hall",
+        club:"ASCII",
         poster: "assets/imgs/pos1.png",
-        desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"",
+        desc:"It is a Technical Quiz event in which there will be 4 students in each team. The level of the questions will increase as the number of rounds increases. 50% of the teams will be eliminated after each round.",
+        plan:"Round 1 - Each team will be asked a question and they’ll get 30 seconds to answer.The team which is unable to answer the question, gets eliminated. Round 2 - 10 Common questions will be asked. The team which answers correctly and takes the least time to answer the question, will get a point. 50% of the teams with the least points will be eliminated. Round 3 - 10 common questions and 5 Rapid fire questions will be asked, and the team with the maximum points will win.",
         rules:[
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "There should be a team of 4 students.",
+            "Mobiles and Laptops won’t be allowed to be used during the event.",
         ],
-        contact:{
-            name:"",
-            design:"",
-            phno: "",
-            email:"@btech.christuniveristy.in"
-        }
+        contact:[
+            {
+                name:"Suneel Sachdeva",
+                design:"Club Head - Web Development Club",
+                phno: "",
+                email:"@btech.christuniveristy.in"
+            },
+            {
+                name:"Adith Menon",
+                design:"Club Head - Web Development Club",
+                phno: "",
+                email:"@btech.christuniveristy.in"
+            }
+        ]
     },
-    xxxxx:{
-        name:"",
-        tagline:"",
-        rounds:"",
-        duration:"",
-        type:"",
-        eventsize:"",
-        date:"Feb 8",
-        time:"4:15 pm – 5:45 pm",
+    webally:{
+        name:"Webally",
+        tagline:"Bringing ideas to life through web development.",
+        rounds:1,
+        duration:"3 days",
+        type:"Technical",
+        eventsize:"Individual Event",
+        date:"Feb 10",
+        time:"4PM",
         venue:"",
-        club:"Coders Club",
+        club:"Fullstack Development Club",
         poster: "assets/imgs/pos1.png",
-        desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"",
+        desc:"Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
+        plan:"1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
         rules:[
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "It can be individual work or a maximum of 3 members in a team.",
+            "The competition is about designing a website using HTML, CSS, and JS codes.",
+            "Should contain at least 2 sub-pages.",
+            "Websites should contain information relevant to the topic given.",
+            "The participants are given 3 days to complete the website and to submit it by 12/02/2023.",
+            "Submit both source code and hosted URL",
+            "Using templates or source code from other websites will be considered cheating.",
+            "No extensions to the deadline will be provided.",
+            "Participants should not make changes to their entries after the deadline for submissions."
         ],
-        contact:{
-            name:"",
-            design:"",
-            phno: "",
-            email:"@btech.christuniveristy.in"
-        }
+        contact:[
+            {
+                name:"Eby Tom",
+                design:"Club Head - Fullstack Development Club",
+                phno: "+91 8547520864",
+                email:"eby.tom@btech.christuniveristy.in"
+            }
+        ]
     },
-    xxxxx:{
-        name:"",
-        tagline:"",
-        rounds:"",
-        duration:"",
-        type:"",
-        eventsize:"",
-        date:"Feb 8",
-        time:"4:15 pm – 5:45 pm",
-        venue:"",
-        club:"Coders Club",
-        poster: "assets/imgs/pos1.png",
-        desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"",
-        rules:[
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        contact:{
-            name:"",
-            design:"",
-            phno: "",
-            email:"@btech.christuniveristy.in"
-        }
-    },
-    xxxxx:{
-        name:"",
-        tagline:"",
-        rounds:"",
-        duration:"",
-        type:"",
-        eventsize:"",
-        date:"Feb 8",
-        time:"4:15 pm – 5:45 pm",
-        venue:"",
-        club:"Coders Club",
-        poster: "assets/imgs/pos1.png",
-        desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"",
-        rules:[
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        contact:{
-            name:"",
-            design:"",
-            phno: "",
-            email:"@btech.christuniveristy.in"
-        }
-    },
-    xxxxx:{
-        name:"",
-        tagline:"",
-        rounds:"",
-        duration:"",
-        type:"",
-        eventsize:"",
-        date:"Feb 8",
-        time:"4:15 pm – 5:45 pm",
-        venue:"",
-        club:"Coders Club",
-        poster: "assets/imgs/pos1.png",
-        desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"",
-        rules:[
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        contact:{
-            name:"",
-            design:"",
-            phno: "",
-            email:"@btech.christuniveristy.in"
-        }
-    }
 }
 
 
