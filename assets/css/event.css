@@ -22,3 +22,14 @@
     width: 70%;
     margin-bottom: 30px;
 }
+.infocard
+{
+    background: #daeaff;
+    color: black;
+    border-radius: 20px;
+    padding: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.infocard p{
+    opacity: 1;
+}

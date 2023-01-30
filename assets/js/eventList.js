@@ -2,7 +2,7 @@ const eventList = {
   "four": [
     {
       "id": "inauguration",
-      "name": "INAUGURATION",
+      "name": "Inauguration",
       "time": "4 PM - 6 PM",
       "venue": "Open Audi"
     }
@@ -259,11 +259,12 @@ for (const [key, value] of Object.entries(eventList)) {
 
     if ((event.type != undefined && event.type == "noevent") || event.id == "inauguration"){
       const h3h3 = document.createElement('h3');
-      h3h3.setAttribute('class', 'noevents__title')
       if (event.id == "inauguration") {
-        h3h3.innerText = "INAUGURATION";
+        h3h3.setAttribute('class', 'noevents__title blackclr')
+        h3h3.innerText = "Inauguration";
       child.appendChild(h3h3);
       } else {
+        h3h3.setAttribute('class', 'noevents__title')
         h3h3.innerText = "No events found";
         child.appendChild(h3h3);
       }
