@@ -63,7 +63,7 @@ console.log(events);
 // const events = require('../json/events.json');
 
 events.tech.map(event=>{
-  var elem = `<div class="elecard">${event}</div>`
+  var elem = `<div class="elecard"><a>${event}<a></div>`
   document.getElementById('childdiv1').innerHTML += elem;
 })
 
