@@ -3,7 +3,8 @@
     width: 132px;
 }
 .detailcard{
-    background-color: rgb(221, 221, 221);
+    background-color: #00262c;
+    color: white;
     padding: 20px;
     border-radius: 25px;
     margin: 0 10px;
@@ -31,5 +32,9 @@
     font-family: "Poppins", sans-serif;
 }
 .infocard p{
+    opacity: 1;
+}
+.op1
+{
     opacity: 1;
 }
