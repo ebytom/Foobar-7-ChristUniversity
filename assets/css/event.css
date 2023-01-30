@@ -2,6 +2,7 @@
     border-radius: 8px;
     padding: 10px 0;
     width: 132px;
+    font-weight: 500;
 }
 .detailcard{
     width: min-content;
