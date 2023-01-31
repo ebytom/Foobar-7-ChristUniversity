@@ -7,8 +7,8 @@ const events = {
         type: "Non-Technical",
         eventsize: "Individual Event",
         date: "February 20",
-        time: "aaaa",
-        venue: "aaaa",
+        time: "4PM - 6PM",
+        venue: "242, Block II",
         club: "Design Club",
         poster: "assets/imgs/poster/pos12.jpg",
         desc: "Students are to make a poster using Canva on a topic that will be provided by the organizers. They will have 2 hours of time during which they make the poster and explain the concept.",
@@ -23,8 +23,8 @@ const events = {
             {
                 name: "Jerrin Jays",
                 design: "Club Head, Design Club",
-                phno: "aaaa",
-                email: "aaaa"
+                phno: "+91 9446222358",
+                email: "jerrin.jays@btech.christuniversity.in"
             }
         ],
         register: "https://forms.gle/5Us54QTy62CMNCUd6"
