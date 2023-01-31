@@ -179,7 +179,7 @@ const events = {
         time: "4:15PM – 5:45PM",
         venue: "242 Lab, Block II",
         club: "Web Development Club",
-        poster: "assets/imgs/poster/pos3.jpg",
+        poster: "assets/imgs/poster/pos21.jpg",
         desc: "CSS Battle is an individual event in which each participant have to recreate the given design using HTML, CSS. It contains 2 rounds.",
         plan: "Round 1 (10 - 20)- basic design ( logical round ) <BR>10 min break to set up round 2. <br>Round 2 - frontend mentor web page component designing. <br>Designs for both events will be given on the spot to avoid cheating.",
         rules: [
