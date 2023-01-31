@@ -7,7 +7,7 @@ const events = {
         type: "Non-Technical",
         eventsize: "Individual Event",
         date: "February 20",
-        time: "4PM - 6PM",
+        time: "4:00PM - 6:00PM",
         venue: "242, Block II",
         club: "Design Club",
         poster: "assets/imgs/poster/pos12.jpg",
@@ -29,16 +29,52 @@ const events = {
         ],
         register: "https://forms.gle/5Us54QTy62CMNCUd6"
     },
+    aceclutch: {
+        name: "Ace Clutch",
+        tagline: "Playing is a new skill",
+        rounds: "1 Round",
+        duration: "Feb - 11,12",
+        type: "Non-Technical",
+        eventsize: "Team : 5",
+        date: "February 11",
+        time: "10:00AM - 4:00PM",
+        venue: "242, Block II",
+        club: "Game Development Club",
+        poster: "assets/imgs/poster/pos8.jpg",
+        desc: "This to entertain the students towards the game and add value to what they play.",
+        plan: "This event will be conducted via online mode",
+        rules: [
+            "Players are not allowed to use any illegal techniques to win the game. If it is found then the team will be disqualified",
+            "The internet will be provided by the college if required or they should have a better speed internet connection.",
+            "The Technical issues from the team side will be considered only for certain conditions.",
+            "External voice programs are not allowed (e.g. Teamspeak, Ventrilo, etc.) Players are requested to join the predefined voice channels in the Discord Server when the contest takes place.",
+            "Players are requested to join their Discord channels 15 minutes before their mentioned timings.",
+            "In general, all programs which are not part of the original game, including custom data and modifications, are not allowed.",
+            "Players can take part in the game in their predefined time which is allotted, Schedule/Fixture is prepared accordingly.",
+            "Programs/Software that provides an advantage during gameplay are strictly prohibited.",
+            "Every participant has to behave with respect towards the representatives, partners, and other Players.",
+            "Everyone is informed to use the server channels which are named according to the purpose."
+        ],
+        contact: [
+            {
+                name: "Mohammed Khashif S",
+                design: "Club Head - Game Development Club",
+                phno: "+91 9940964092",
+                email: "m.khashif@btech.christuniversity.in"
+            }
+        ],
+        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+    },
     aihackathon: {
         name: "AI Hackathon",
-        tagline: "aaaa",
+        tagline: "Push the boundaries of AI",
         rounds: "2 Rounds",
-        duration: "Round 1 - 2-3 hrs",
+        duration: "2 Hours",
         type: "Technical",
-        eventsize: "Team 2-4",
-        date: "aaaa",
-        time: "aaaa",
-        venue: "aaaa",
+        eventsize: "Team : 2-4",
+        date: "February 7",
+        time: "4:00PM - 6:00PM",
+        venue: "242, Block II",
         club: "Neuron Club",
         poster: "assets/imgs/poster/pos6.jpg",
         desc: "This event provides students an opportunity to solve real world data challenges by applying artificial intelligence and machine learning.",
@@ -59,7 +95,7 @@ const events = {
                 name: "B Uday Satya Sai",
                 design: "Club head-Neuron Club",
                 phno: "+91 9347132570",
-                email: "aaaa"
+                email: "bandi.uday@btech.christuniversity.in"
             }
         ],
         register: "https://forms.gle/K4rU3ycV1QCgnR1k9"
@@ -68,12 +104,12 @@ const events = {
         name: "Blind Typing",
         tagline: "Trust your focus",
         rounds: "1 Round",
-        duration: "30 minutes",
+        duration: "1 Hour",
         type: "Non-Technical",
-        eventsize: "x",
-        date: "February 10",
-        time: "4:15PM – 5:45PM",
-        venue: "x",
+        eventsize: "Individual Event",
+        date: "February 15",
+        time: "4:00PM – 6:00PM",
+        venue: "257, Block II",
         club: "Coders Club",
         poster: "assets/imgs/poster/pos5.jpg",
         desc: "Blind Typing is an improvised version of the regular typing competition. Here, the participants must type the content handed out to them with their monitors turned off. This implies that the participants have to rely on their visuals on the keyboard while maintaining their speed of typing in order to earn points. Participants can be from any year of any department.",
@@ -93,7 +129,7 @@ const events = {
                 name: "Krishna Sreekumar",
                 design: "Club Head - Coders Club",
                 phno: "+91 7259841140",
-                email: "+91 9072381106"
+                email: "krishna.sreekumar@btech.christuniversity.in"
             }
         ],
         register: "https://forms.gle/kpkvRDHMNGVejeUi7"
@@ -101,13 +137,13 @@ const events = {
     breakthequery:{
         name:"Break the query",
         tagline:"Query to Victory",
-        rounds:2,
-        duration:"Round 1- 30 mins, Round 2-45mins",
+        rounds:"2 Rounds",
+        duration:"2 Hour",
         type:"Technical",
-        eventsize:"Team Event",
+        eventsize:"Team : 2 ",
         date:"February 8",
-        time:"4:15PM – 6:00PM",
-        venue:"245, Block II",
+        time:"4:00PM – 6:00PM",
+        venue:"257, Block II",
         club:"Coders Club",
         poster: "assets/imgs/poster/pos16.jpg",
         desc:"Break the query – a DBMS event to put your query solving skills to the test",
@@ -136,12 +172,12 @@ const events = {
         name: "Codeathon",
         tagline: "codeathon",
         rounds: "1 Round",
-        duration: "Round 1: 1hr 15mins",
+        duration: "1 Hour",
         type: "Technical",
-        eventsize: "Team : 2/team",
-        date: "aaaa",
-        time: "4:15PM – 5:30PM",
-        venue: "aaaa",
+        eventsize: "Team : 2",
+        date: "February 9",
+        time: "4:00PM – 6:00PM",
+        venue: "255, Block II",
         club: "Coders Club",
         poster: "assets/imgs/poster/pos13.jpg",
         desc: "Put your coding skills to the test as you work your way through multiple problems of algorithmic puzzles within the allotted time, in any language of your choice. The ingredients of victory are precision of solution, logical thinking skills, and speed.",
@@ -161,7 +197,7 @@ const events = {
         contact: [
             {
                 name: "Suhaas Joshi",
-                design: "Club head-Coders Club",
+                design: "Club Head, Coders Club",
                 phno: "+91 7625015757",
                 email: "suhaas.joshi@btech.christuniversity.in"
             }
@@ -172,12 +208,12 @@ const events = {
         name: "CSS-Battle",
         tagline: "Put your CSS design skills on test in the battlefield",
         rounds: "2 Rounds",
-        duration: "Round 1: 15-20mins,Round 2: 45mins",
+        duration: "2 Hour",
         type: "Technical",
         eventsize: "Individual Event",
         date: "February 16",
-        time: "4:15PM – 5:45PM",
-        venue: "242 Lab, Block II",
+        time: "4:00PM – 6:00PM",
+        venue: "215, Block II",
         club: "Web Development Club",
         poster: "assets/imgs/poster/pos21.jpg",
         desc: "CSS Battle is an individual event in which each participant have to recreate the given design using HTML, CSS. It contains 2 rounds.",
@@ -191,7 +227,7 @@ const events = {
         contact: [
             {
                 name: "Alan P Sunny",
-                design: "Club Head - Web Development Club",
+                design: "Club Head, Full Stack Development Club",
                 phno: "+91 9074660438",
                 email: "alan.p@btech.christuniveristy.in"
             }
@@ -201,16 +237,16 @@ const events = {
     flixnmanga: {
         name: "Flix N Manga",
         tagline: "flixnmanga",
-        rounds: "",
-        duration: "",
-        type: "",
-        eventsize: "",
-        date: "aaaa",
-        time: "aaaa",
-        venue: "",
-        club: "Coders Club",
+        rounds: "3 Round",
+        duration: "2 Hour",
+        type: "Non-Technical",
+        eventsize: "Team : 2-3",
+        date: "February 14",
+        time: "4:00PM - 6:00PM",
+        venue: "256, Block II",
+        club: "Neuron Club",
         poster: "assets/imgs/poster/pos3.jpg",
-        desc: "Break the query – a DBMS event to put your query solving skills to the test",
+        desc: "",
         plan: "",
         rules: [
             "Team formation should be made as per the contestant's choice, and there will be no changes in team players or swapping players from another team when the event starts. Strictly adhere to your team's motive. And it is kindly suggested that no request of changing team players at the eleventh minute as it may charge removal of the team.",
@@ -225,16 +261,10 @@ const events = {
         ],
         contact: [
             {
-                name: "B Uday Satya Sai",
-                design: "Club Head - Web Development Club",
-                phno: "+91 9347132570",
-                email: "@btech.christuniveristy.in"
-            },
-            {
                 name: "Jerrin Jays",
                 design: "Club Head - Design Club",
                 phno: "+91 9446222358",
-                email: "@btech.christuniveristy.in"
+                email: "jerrin.jays@btech.christuniveristy.in"
             }
         ],
         register: "https://forms.gle/bs1AhGceLpTvLiwD7"
@@ -243,12 +273,12 @@ const events = {
         name: "KB Games",
         tagline: "Stop playing start developing",
         rounds: "1 Round",
-        duration: "2 days",
+        duration: "2 Hours",
         type: "Technical",
-        eventsize: "x",
+        eventsize: "Individual Event",
         date: "February 14",
         time: "2:00PM – 4:00PM",
-        venue: "x",
+        venue: "242, Block II",
         club: "Game Development Club",
         poster: "assets/imgs/poster/pos4.jpg",
         desc: "This is to develop the skills towards game development club and also to develop the awareness of game development to students.",
@@ -263,7 +293,7 @@ const events = {
         contact: [
             {
                 name: "Priyanshu Biswas",
-                design: "Club Head - Game Development Club",
+                design: "Club Head, Game Development Club",
                 phno: "+91 7679349724",
                 email: "priyanshu.biswas@btech.christuniveristy.in"
             }
@@ -276,14 +306,14 @@ const events = {
         rounds: "1 Round",
         duration: "2 Hours",
         type: "Technical",
-        eventsize: "x",
+        eventsize: "Team : 2-4",
         date: "February 10",
-        time: "4PM - 6PM",
-        venue: "aaaa",
+        time: "4:00PM - 6:00PM",
+        venue: "255, Block II",
         club: "Neuron Club",
         poster: "assets/imgs/poster/pos17.jpg",
-        desc: "",
-        plan: "The Ideathon will have two themes - Web3 and AI. The team can propose any conceptual ideas or the research/survey done by the group, which gives some conclusions related to the theme considered. This event is to prepare yourself to build the confidence for pitching your ideas and get some suggestions from the judges to take further steps to reach the goal of your opinion. This event will let you get the experience of teamwork and reduce the stage fear. There should be genuine problems and solutions related to the theme. The format of the presentation to present will be shared for reference. Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. The event will be in offline mode.",
+        plan: "",
+        desc: "The Ideathon will have two themes - Web3 and AI. The team can propose any conceptual ideas or the research/survey done by the group, which gives some conclusions related to the theme considered. This event is to prepare yourself to build the confidence for pitching your ideas and get some suggestions from the judges to take further steps to reach the goal of your opinion. This event will let you get the experience of teamwork and reduce the stage fear. There should be genuine problems and solutions related to the theme. The format of the presentation to present will be shared for reference. Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. The event will be in offline mode.",
         rules: [
             "The participant's team size must be 2-5.",
             "Each team must have a unique team name.",
@@ -303,7 +333,7 @@ const events = {
                 name: "Jainam Purushotam Patel",
                 design: "Club Head, Neuron Club",
                 phno: "+91 8104392202",
-                email: "aaaa"
+                email: "jainam.purshotam@btech.christuniversity.in"
             }
         ],
         register: "https://forms.gle/dQHaRng7hrkmrU8x8"
@@ -315,9 +345,9 @@ const events = {
         duration: "2 Hours",
         type: "Technical",
         eventsize: "Individual Event",
-        date: "February 15",
-        time: "4PM - 6PM",
-        venue: "aaaa",
+        date: "February 10",
+        time: "2:00PM - 4:00PM",
+        venue: "242, Block II",
         club: "Design Club",
         poster: "assets/imgs/poster/pos9.jpg",
         desc: "Students are given 2 topics based on which they are to create an interactive prototype on Canva or Figma.",
@@ -333,13 +363,7 @@ const events = {
                 name: "Jerrin Jays",
                 design: "Club Head, Design Club",
                 phno: "+91 9446222358",
-                email: "aaaa"
-            },
-            {
-                name: "Suneel Sachdeva",
-                design: "Club Head - Design Club",
-                phno: "+91 aaaa",
-                email: "aaaa"
+                email: "jerrin.jays@btech.christuniversity.in"
             }
         ],
         register: "https://forms.gle/Q8ioT35J7Aybjbpx7"
@@ -348,12 +372,12 @@ const events = {
         name: "Image Brush",
         tagline: "Paint with the Painting",
         rounds: "1 Round",
-        duration: "1 Hour",
+        duration: "2 Hour",
         type: "Non-Technical",
         eventsize: "Individual Event",
         date: "February 13",
-        time: "x",
-        venue: "x",
+        time: "4:00PM - 6:00PM",
+        venue: "242, BLock II",
         club: "Design Club",
         poster: "assets/imgs/poster/pos10.jpg",
         desc: "Students are given 3 images using which they are expected to create an illustration. Using any other color, brush or tool is not allowed. They can resize, rotate and create as many copies of the brush image as needed.",
@@ -369,22 +393,22 @@ const events = {
             {
                 name: "Jerrin Jays",
                 design: "Club Head, Design Club",
-                phno: "x",
-                email: "x@btech.christuniveristy.in"
+                phno: "+91 9446222358",
+                email: "jerrin.jays@btech.christuniveristy.in"
             }
         ],
         register: "https://forms.gle/VAuj9Lvn3GbDL6tT7"
     },
     openmic: {
         name: "Open Mic",
-        tagline: "x",
+        tagline: "Your moment to shine",
         rounds: "1 Round",
         duration: "2 Hours",
         type: "Non-Technical",
         eventsize: "Individual Event",
         date: "February 6",
-        time: "x",
-        venue: "Open Auditorium",
+        time: "1:00PM - 4:00PM",
+        venue: "Open Audi",
         club: "ASCII",
         poster: "assets/imgs/poster/pos14.jpg",
         desc: "",
@@ -398,20 +422,20 @@ const events = {
             name: "Kevin Noronha",
             design: "Club Coordinator",
             phno: "9845199783",
-            email: ""
+            email: "kevin.noronha@btech.christuniversity.in"
         },
         register: "https://forms.gle/Zdng2YqDUob2vYh28"
     },
     techquiz: {
         name: "Tech Quiz",
-        tagline: "",
+        tagline: "Unleash your inner tech geek",
         rounds: "3 Rounds",
-        duration: "2 hrs",
-        type: "",
-        eventsize: "Team Event - 4 ",
+        duration: "2 Hours",
+        type: "Technical",
+        eventsize: "Team : 4 ",
         date: "February 17",
-        time: "2PM - 4PM",
-        venue: "Seminar Hall, Block II",
+        time: "2:00PM - 4:00PM",
+        venue: "Audi, Block I",
         club: "ASCII",
         poster: "assets/imgs/poster/pos15.jpg",
         desc: "It is a Technical Quiz event in which there will be 4 students in each team. The level of the questions will increase as the number of rounds increases. 50% of the teams will be eliminated after each round.",
@@ -422,16 +446,10 @@ const events = {
         ],
         contact: [
             {
-                name: "Suneel Sachdeva",
-                design: "Club Head - Web Development Club",
-                phno: "",
-                email: "@btech.christuniveristy.in"
-            },
-            {
                 name: "Adith Menon",
                 design: "Club Head - Web Development Club",
-                phno: "",
-                email: "@btech.christuniveristy.in"
+                phno: "+91 9560891950",
+                email: "adith.menon@btech.christuniveristy.in"
             }
         ],
         register: "https://forms.gle/GW4jrHXvGkgaXngD6"
@@ -444,8 +462,8 @@ const events = {
         type: "Technical",
         eventsize: "Individual Event",
         date: "February 10",
-        time: "4PM",
-        venue: "",
+        time: "1:00 PM",
+        venue: "246, Block II",
         club: "Fullstack Development Club",
         poster: "assets/imgs/poster/pos8.jpg",
         desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
