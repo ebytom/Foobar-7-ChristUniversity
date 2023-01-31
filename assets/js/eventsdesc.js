@@ -10,7 +10,7 @@ const events = {
         time: "aaaa",
         venue: "aaaa",
         club: "Design Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos1.png",
         desc: "Students are to make a poster using Canva on a topic that will be provided by the organizers. They will have 2 hours of time during which they make the poster and explain the concept.",
         plan: "Only 1 round, top 2 selected. Google form will be given where participants will upload an editable Canva link and a paragraph on their poster concept.",
         rules: [
