@@ -21,7 +21,6 @@ $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
     $('.dropdown-submenu .show').removeClass("show");
   });
 
-
   return false;
 });
 
@@ -124,7 +123,6 @@ const events ={
   ]
 }
 // import events from './events.json'
-console.log(events);
 // const events = require('../json/events.json');
 
 events.tech.map(event=>{

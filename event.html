@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="assets/css/leadmark.css">
     <link rel="stylesheet" href="assets/css/slider.css">
     <link rel="stylesheet" href="assets/css/event.css">
-    <link rel="stylesheet" href="assets/css/chevron.css">
+    <!-- <link rel="stylesheet" href="assets/css/chevron.css"> -->
+    <link rel="stylesheet" href="assets/css/eventpagedpn.css">
     <!-- <link href="assets/scss/slider/slider.scss" rel="stylesheet/scss" type="text/css"> -->
     <link rel="shortcut icon" href="assets/imgs/foobar7.png" />
     <script src="https://kit.fontawesome.com/9589c450f7.js" crossorigin="anonymous"></script>
@@ -36,6 +37,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,7 +53,7 @@
                                     <li><a class="dropdown-item" href="event.html?event=illustra">Illustra</a></li>
                                     <li><a class="dropdown-item" href="event.html?event=aihackathon">AI Hackathon</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="event.html?ideathon">Ideathon</a></li>
+                                    <li><a class="dropdown-item" href="event.html?event=ideathon">Ideathon</a></li>
                                     <li><a class="dropdown-item" href="event.html?event=gamedevelopment">Short Game
                                             Dev</a></li>
                                     <li><a class="dropdown-item" href="event.html?event=cssbattle">CSS Battle</a></li>
@@ -60,40 +62,37 @@
                                 </ul>
                             </li>
                             <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Non Technical
-                                    Events</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="event.html?event=openmic">Open Mic</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="event.html?event=aceclutch">Ace Clutch</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="event.html?event=blindtyping">Blind Typing</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="event.html?event=flixnmanga">Flix n Manga</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="event.html?event=imagebrush">Image Brush</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=acciolanocien">Accio La
-                                            Nocien</a></li>
+                                Events</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="event.html?event=openmic">Open Mic</a>
+                                </li>
+                                <li><a class="dropdown-item" href="event.html?event=aceclutch">Ace Clutch</a>
+                                </li>
+                                <li><a class="dropdown-item" href="event.html?event=blindtyping">Blind Typing</a>
+                                </li>
+                                <li><a class="dropdown-item" href="event.html?event=flixnmanga">Flix n Manga</a>
+                                </li>
+                                <li><a class="dropdown-item" href="event.html?event=imagebrush">Image Brush</a></li>
+                                <li><a class="dropdown-item" href="event.html?event=acciolanocien">Accio La Nocien</a></li>
 
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Workshop</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="event.html?event=webdevworkshop">Web
-                                            Development</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=gamedevworkshop">Game
-                                            Development</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=javaworkshop">Java
-                                            Programmig</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=cworkshop">C Programming</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="event.html?event=researchworkshop">Research</a>
-                                    </li>
-                                </ul>
-                            </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Workshop</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="event.html?event=webdevworkshop">Web
+                                        Development</a></li>
+                                <li><a class="dropdown-item" href="event.html?event=gamedevworkshop">Game
+                                        Development</a></li>
+                                <li><a class="dropdown-item" href="event.html?event=javaworkshop">Java
+                                        Programmig</a></li>
+                                <li><a class="dropdown-item" href="event.html?event=cworkshop">C Programming</a>
+                                </li>
+                                <li><a class="dropdown-item" href="event.html?event=researchworkshop">Research</a>
+                                </li>
+                            </ul>
+                        </li>
                         </ul>
                     </li>
-
-
 
                     <li class="nav-item">
                         <a class="nav-link" href="#posters">Posters</a>
@@ -125,11 +124,11 @@
             <div class="row justify-content-between">
                 <div class="col pr-md-5 mb-4 mb-md-0">
                     <div class="d-flex regbttn">
-                    <h6 class="section-title mb-0" id="eventname"></h6>
-                    <div id="regbtn" class="events__tag regbtn bttn">
-                        <a class="atagwhite" >Register Now</a>
+                        <h6 class="section-title mb-0" id="eventname"></h6>
+                        <div id="regbtn" class="events__tag regbtn bttn">
+                            <a class="atagwhite">Register Now</a>
+                        </div>
                     </div>
-                </div>
                     <h6 class="section-subtitle mb-4" id="eventtagline"></h6>
                     <p id="eventdesc" class="op1 taj"></p>
                     <!-- <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm"> -->
@@ -292,9 +291,25 @@
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/openDiv.js"></script>
     <script src="assets/js/eventsdesc.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/chevron.js"></script>
+    <!-- <script src="assets/js/slider.js"></script> -->
+    <!-- <script src="assets/js/chevron.js"></script> -->
+    <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+            }
+            var $subMenu = $(this).next('.dropdown-menu');
+            $subMenu.toggleClass('show');
 
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass('show');
+            });
+
+
+            return false;
+        });
+    </script>
 
 </body>
 
