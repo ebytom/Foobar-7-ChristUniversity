@@ -25,7 +25,7 @@ slido {
 	text-align: center;
 	position: relative;
 	margin-bottom: -60px;
-	z-index: 10000;
+	z-index: 100;
 	color: white;
 	font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
 }
