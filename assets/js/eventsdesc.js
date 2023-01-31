@@ -106,12 +106,12 @@ const events = {
         type:"Technical",
         eventsize:"Team Event",
         date:"February 8",
-        time:"4:15PM – 5:45PM",
-        venue:"345, Block II",
+        time:"4:15PM – 6:00PM",
+        venue:"245, Block II",
         club:"Coders Club",
         poster: "assets/imgs/pos1.png",
         desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"The event will consist of 2 rounds. The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
+        plan:"The event will consist of 2 rounds. <br><br>The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. <br><br>The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
         rules:[
             "Each team will consist of 2 members.",
             "All participants must report to the venue 5 minutes before the competition begins. Latecomers will not be entertained. ",
@@ -119,7 +119,7 @@ const events = {
             "Participants must bring their own laptops. A team must have only one laptop between both members.",
             "No extensions to the deadline will be provided.",
             "Participants are allowed to use OracleDB/PostgreSQL/MySQL. Participants have to ensure that they have it installed prior to the competition.",
-            "Participants will be provided an additional 5 minutes after the allotted time to submit the spool files and presentation for the queries to be judged.",
+            "For round 2, participants will be provided an additional 5 minutes after the allotted time to submit the spool files and presentation for the queries to be judged.",
             "Usage of the internet and other reference materials, or any other form of malpractice, will lead to disqualification."
         ],
         contact:[
@@ -495,6 +495,7 @@ const eventrules = document.getElementById('eventrules')
 currentevent.rules.map(rule=>{
     var lili = document.createElement('li');
     lili.innerText = rule;
+    lili.setAttribute('class','taj');
     eventrules.appendChild(lili)
 })
 
