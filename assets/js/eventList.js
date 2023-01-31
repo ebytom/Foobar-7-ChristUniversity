@@ -148,7 +148,7 @@ const eventList = {
       "id": "quiz",
       "name": "TECH QUIZ",
       "time": "2PM - 4PM",
-      "venue": "Audi, Block II",
+      "venue": "Audi, Block I",
       "register": "https://forms.gle/GW4jrHXvGkgaXngD6",
       "more": "event.html?event=teckquiz"
     }
@@ -169,23 +169,44 @@ const eventList = {
     {
       "id": "accio",
       "name": "ACCIO LA NOCIEN",
-      "time": "4 PM - 6 PM",
-      "venue": "",
+      "time": "4PM - 6PM",
+      "venue": "242, Block II",
       "register": "https://forms.gle/5Us54QTy62CMNCUd6",
       "more": "event.html?event=acciolanocien"
     }
   ],
   "twentyone": [
     {
-      "id": "Workshop"
+      "id": "gameworkshop",
+      "name": "GAMING WORKSHOP",
+      "time": "2PM - 4PM",
+      "venue": "245, Block II",
+      "register": "",
+      "more": "event.html?event=javaworkshop"
+    },
+    {
+      "id": "researchworkshop",
+      "name": "RESEARCH WRITING WORKSHOP",
+      "time": "9AM - 4PM",
+      "venue": "Audi, Block I",
+      "register": "",
+      "more": "event.html?event=javaworkshop"
     }
   ],
   "twentytwo": [
     {
+      "id": "gameworkshop",
+      "name": "GAMING WORKSHOP",
+      "time": "4PM - 6PM",
+      "venue": "245, Block II",
+      "register": "",
+      "more": "event.html?event=javaworkshop"
+    },
+    {
       "id": "java",
       "name": "JAVA WORKSHOP",
-      "time": "",
-      "venue": "",
+      "time": "4PM - 6PM",
+      "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=javaworkshop"
     }
@@ -194,8 +215,8 @@ const eventList = {
     {
       "id": "java",
       "name": "JAVA WORKSHOP",
-      "time": "",
-      "venue": "",
+      "time": "4PM - 6PM",
+      "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=javaworkshop"
     }
@@ -204,18 +225,18 @@ const eventList = {
     {
       "id": "c",
       "name": "C WORKSHOP",
-      "time": "",
-      "venue": "",
+      "time": "2PM - 4PM",
+      "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=cworkshop"
     }
   ],
   "twentyfive": [
     {
-      "id": "web",
-      "name": "WEB DEVELOPMENT WORKSHOP",
-      "time": "",
-      "venue": "",
+      "id": "c",
+      "name": "C WORKSHOP",
+      "time": "2PM - 4PM",
+      "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=cworkshop"
     }
@@ -230,8 +251,18 @@ const eventList = {
     {
       "id": "web",
       "name": "WEB DEVELOPMENT WORKSHOP",
-      "time": "",
-      "venue": "",
+      "time": "4PM - 6PM",
+      "venue": "242, Block II",
+      "register": "",
+      "more": "event.html?event=webdevworkshop"
+    }
+  ],
+  "twentyeight": [
+    {
+      "id": "web",
+      "name": "WEB DEVELOPMENT WORKSHOP",
+      "time": "2PM - 4PM",
+      "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=webdevworkshop"
     }
