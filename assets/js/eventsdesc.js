@@ -1,6 +1,6 @@
 const events = {
-    acciolanotion: {
-        name: "Accio la Notion",
+    acciolanocien: {
+        name: "Accio la Nocien",
         tagline: "Summon your ideas",
         rounds: "1 Round",
         duration: "2 hr",
@@ -10,7 +10,7 @@ const events = {
         time: "aaaa",
         venue: "aaaa",
         club: "Design Club",
-        poster: "assets/imgs/poster/pos1.png",
+        poster: "assets/imgs/poster/pos12.jpg",
         desc: "Students are to make a poster using Canva on a topic that will be provided by the organizers. They will have 2 hours of time during which they make the poster and explain the concept.",
         plan: "Only 1 round, top 2 selected. Google form will be given where participants will upload an editable Canva link and a paragraph on their poster concept.",
         rules: [
@@ -40,7 +40,7 @@ const events = {
         time: "aaaa",
         venue: "aaaa",
         club: "Neuron Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos6.jpg",
         desc: "This event provides students an opportunity to solve real world data challenges by applying artificial intelligence and machine learning.",
         plan: "aaaa",
         rules: [
@@ -75,7 +75,7 @@ const events = {
         time: "4:15PM – 5:45PM",
         venue: "x",
         club: "Coders Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos5.jpg",
         desc: "Blind Typing is an improvised version of the regular typing competition. Here, the participants must type the content handed out to them with their monitors turned off. This implies that the participants have to rely on their visuals on the keyboard while maintaining their speed of typing in order to earn points. Participants can be from any year of any department.",
         plan: "The competition has only 1 round. The content that is to be typed by the participants will be printed and given to them individually. Participants will make use of the keyboards (only) to type the content into the system. There will be multiple paragraph blocks, carrying a varying weightage of points. The person who earns the most points is the winner. ",
         rules: [
@@ -109,7 +109,7 @@ const events = {
         time:"4:15PM – 6:00PM",
         venue:"245, Block II",
         club:"Coders Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos16.jpg",
         desc:"Break the query – a DBMS event to put your query solving skills to the test",
         plan:"The event will consist of 2 rounds. <br><br>The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. <br><br>The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
         rules:[
@@ -143,7 +143,7 @@ const events = {
         time: "4:15PM – 5:30PM",
         venue: "aaaa",
         club: "Coders Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos13.jpg",
         desc: "Put your coding skills to the test as you work your way through multiple problems of algorithmic puzzles within the allotted time, in any language of your choice. The ingredients of victory are precision of solution, logical thinking skills, and speed.",
         plan: "Usage of online compilers/internet and other reference materials, or any other form of malpractice, will lead to disqualification",
         rules: [
@@ -179,7 +179,7 @@ const events = {
         time: "4:15PM – 5:45PM",
         venue: "242 Lab, Block II",
         club: "Web Development Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos3.jpg",
         desc: "CSS Battle is an individual event in which each participant have to recreate the given design using HTML, CSS. It contains 2 rounds.",
         plan: "Round 1 (10 - 20)- basic design ( logical round ) <BR>10 min break to set up round 2. <br>Round 2 - frontend mentor web page component designing. <br>Designs for both events will be given on the spot to avoid cheating.",
         rules: [
@@ -209,7 +209,7 @@ const events = {
         time: "aaaa",
         venue: "",
         club: "Coders Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos3.jpg",
         desc: "Break the query – a DBMS event to put your query solving skills to the test",
         plan: "",
         rules: [
@@ -250,7 +250,7 @@ const events = {
         time: "2:00PM – 4:00PM",
         venue: "x",
         club: "Game Development Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos4.jpg",
         desc: "This is to develop the skills towards game development club and also to develop the awareness of game development to students.",
         plan: "This event will be conducted via online mode where the topics or theme for developing the game will be given to participants after the registration is done. Then a two-day limit of time is given to the participants to develop their game and submit it in a drive. ",
         rules: [
@@ -281,7 +281,7 @@ const events = {
         time: "4PM - 6PM",
         venue: "aaaa",
         club: "Neuron Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos17.jpg",
         desc: "",
         plan: "The Ideathon will have two themes - Web3 and AI. The team can propose any conceptual ideas or the research/survey done by the group, which gives some conclusions related to the theme considered. This event is to prepare yourself to build the confidence for pitching your ideas and get some suggestions from the judges to take further steps to reach the goal of your opinion. This event will let you get the experience of teamwork and reduce the stage fear. There should be genuine problems and solutions related to the theme. The format of the presentation to present will be shared for reference. Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. The event will be in offline mode.",
         rules: [
@@ -319,7 +319,7 @@ const events = {
         time: "4PM - 6PM",
         venue: "aaaa",
         club: "Design Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos9.jpg",
         desc: "Students are given 2 topics based on which they are to create an interactive prototype on Canva or Figma.",
         plan: "Only 1 round, top 2 selected.",
         rules: [
@@ -355,7 +355,7 @@ const events = {
         time: "x",
         venue: "x",
         club: "Design Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos10.jpg",
         desc: "Students are given 3 images using which they are expected to create an illustration. Using any other color, brush or tool is not allowed. They can resize, rotate and create as many copies of the brush image as needed.",
         plan: "Only 1 round, top 2 selected",
         rules: [
@@ -386,7 +386,7 @@ const events = {
         time: "x",
         venue: "Open Auditorium",
         club: "ASCII",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos14.jpg",
         desc: "",
         plan: "",
         rules: [
@@ -413,7 +413,7 @@ const events = {
         time: "2PM - 4PM",
         venue: "Seminar Hall, Block II",
         club: "ASCII",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos15.jpg",
         desc: "It is a Technical Quiz event in which there will be 4 students in each team. The level of the questions will increase as the number of rounds increases. 50% of the teams will be eliminated after each round.",
         plan: "Round 1 - Each team will be asked a question and they’ll get 30 seconds to answer.The team which is unable to answer the question, gets eliminated. <br>Round 2 - 10 Common questions will be asked. The team which answers correctly and takes the least time to answer the question, will get a point. 50% of the teams with the least points will be eliminated. <br>Round 3 - 10 common questions and 5 Rapid fire questions will be asked, and the team with the maximum points will win.",
         rules: [
@@ -447,7 +447,7 @@ const events = {
         time: "4PM",
         venue: "",
         club: "Fullstack Development Club",
-        poster: "assets/imgs/pos1.png",
+        poster: "assets/imgs/poster/pos8.jpg",
         desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
         plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
         rules: [
