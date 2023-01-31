@@ -78,11 +78,9 @@ const events = {
         club: "Neuron Club",
         poster: "assets/imgs/poster/pos6.jpg",
         desc: "This event provides students an opportunity to solve real world data challenges by applying artificial intelligence and machine learning.",
-        plan: "aaaa",
+        plan: "Teams can have 2- 4 people.<br>Contestants are required to write their own code.<br>Adhere to the time limits.",
         rules: [
-            "Contestants are required to write their own code.",
             "All ideas, codes and execution should be developed within the time frame given to them.",
-            "Teams can have 2- 4 people.",
             "Adhere to the time limits.",
             "Try to put comments in your code to make it easy to understand.",
             "Judging criteria is the ROC curve of the model and code efficiency, structure and documentation(Making code more understandable).",
@@ -246,24 +244,20 @@ const events = {
         venue: "256, Block II",
         club: "Neuron Club",
         poster: "assets/imgs/poster/pos3.jpg",
-        desc: "",
-        plan: "",
+        desc: "Teams are quizzed on Anime and Pop Culture trivia. Students participate as teams of 3 in this competition which comprises of 2 rounds. First round will be an offline Google form while the other will be an on-stage rapid fire round for each team.",
+        plan: "Round 1(Prelims) : <br><br>20 questions, 15 minutes <br>5 teams are to be selected from the google forms based on points and time taken<br><br>Round 2 : <br><br>10 questions, 1 minute, can skip the question if question can’t be answered <br>5 questions from anime, 5 questions from Pop culture <br>Winner and runner up selected out of 5 teams based on accuracy and time taken <br>In case of a tie, teams are asked questions one after the other and there is immediate elimination of teams who answer it wrong. This continues till only one team remains.",
         rules: [
-            "Team formation should be made as per the contestant's choice, and there will be no changes in team players or swapping players from another team when the event starts. Strictly adhere to your team's motive. And it is kindly suggested that no request of changing team players at the eleventh minute as it may charge removal of the team.",
-            "For every team, there will be a team captain and team name. [ For example Players (Kush, Manish, Vikram) Team name (Team Marvel) Team Captain (Manish). All of this needs to be filled during team registration, registration will be done through Google Forms.",
-            "Important Event rule: No internet Browsing.",
-            "Preliminary round ground rules: ",
-            "After 5-10 mins of the event, team captains will be provided with Google forms (through emails/ chats) ONLY TEAM CAPTAINS. It is the duty of both team members and the captain to coordinate among themselves for playing this first round. (IF THE TEAM LOSES, THEY WILL NOT BE ABLE TO PLAY the main event).",
-            "Prelim round starts with the confirmation of all team captains, Prelim round will have basic 20 questions each marked as 1pt. Questions will be on pop culture, scheme of difficulty- Medium.",
-            "Time Span: 5 Mins",
-            "The Main doubt: What will be the elimination process? -> For me to say, the team who lacks teamwork may only lose. Not the team who scores fewer points. As you can see, the time span is less and if the team coordinates well they can score well. The relative scoring will be considered. If any team scores 17pts, it will be considered the highest, and teams having the lowest score will be directly eliminated. (If there are 15 teams participating, according to event protocol, a maximum of 4 teams will be eliminated.) It means the elimination ratio is less.",
-            "Final Round: ( Rapid Fire ) Total questions/team. Each team will be given 1min time, the alternative question will be asked example the first will be from movies and the next will be from anime and the cycle repeats until the timer hits 1min. The team with the most correct answers will be the winning team."
+            "Every team must provide a team name and a team captain during the registration. ",
+            "Registration is to be done only once per team",
+            "Changing teammates at the last hour is NOT permitted",
+            "Cheating through any means, especially the internet is NOT allowed; Mobile phones are to be kept outside the venue. Any malpractice, if found, will lead to disqualification",
+            "Questions will be picked at random for a team to add to fairness"
         ],
         contact: [
             {
                 name: "Jerrin Jays",
-                design: "Club Head - Design Club",
-                phno: "+91 9446222358",
+                design: "Club Head, Design Club",
+                phno: "+91 9446888358",
                 email: "jerrin.jays@btech.christuniveristy.in"
             }
         ],
@@ -312,7 +306,7 @@ const events = {
         venue: "255, Block II",
         club: "Neuron Club",
         poster: "assets/imgs/poster/pos17.jpg",
-        plan: "",
+        plan: "There should be genuine problems and solutions related to the theme. <br>The format of the presentation to present will be shared for reference. <br>Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. <br>The event will be in offline mode.",
         desc: "The Ideathon will have two themes - Web3 and AI. The team can propose any conceptual ideas or the research/survey done by the group, which gives some conclusions related to the theme considered. This event is to prepare yourself to build the confidence for pitching your ideas and get some suggestions from the judges to take further steps to reach the goal of your opinion. This event will let you get the experience of teamwork and reduce the stage fear. There should be genuine problems and solutions related to the theme. The format of the presentation to present will be shared for reference. Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. The event will be in offline mode.",
         rules: [
             "The participant's team size must be 2-5.",

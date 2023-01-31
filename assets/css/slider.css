@@ -55,7 +55,7 @@ slido {
 }
 
 .main-pos {
-	margin-left: -0.5em !important;
+	margin-left: -1.2em !important;
 	transform: translateX(-50%);
 	z-index: 3000;
 	/*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/

@@ -1,5 +1,5 @@
 //slideshow style interval
-var autoSwap = setInterval( swap,2500);
+var autoSwap = setInterval( swap,3000);
 
 //pause slideshow and reinstantiate on mouseout
 // $('ul, span').hover(
