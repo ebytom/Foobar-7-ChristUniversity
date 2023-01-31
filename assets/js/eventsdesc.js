@@ -40,7 +40,7 @@ const events = {
         time: "10:00AM - 4:00PM",
         venue: "242, Block II",
         club: "Game Development Club",
-        poster: "assets/imgs/poster/pos8.jpg",
+        poster: "assets/imgs/poster/pos20.jpg",
         desc: "This to entertain the students towards the game and add value to what they play.",
         plan: "This event will be conducted via online mode",
         rules: [
