@@ -484,7 +484,7 @@ const events = {
         register: "https://forms.gle/oMhrSXaodaFe6EYF9"
     },
     webdevworkshop: {
-        name: "Web Development",
+        name: "Web Development Workshop",
         tagline: "Innovate. Create. Rule the Web.",
         rounds: "1 Round",
         duration: "3 Days",
@@ -511,12 +511,12 @@ const events = {
         contact: [
             {
                 name: "Jeffery",
-                design: "Club Head - Fullstack Development Club",
-                phno: "+91 8547520864",
-                email: "eby.tom@btech.christuniveristy.in"
+                design: "Club Head - Web Development Club",
+                phno: "+91 7548885586",
+                email: "jeffery.raj@btech.christuniveristy.in"
             }
         ],
-        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+        register: "https://forms.gle/6AuxtXPvLQsQPXHu6"
     },
     gamedevworkshop: {
         name: "Game Development",
@@ -551,7 +551,7 @@ const events = {
                 email: "eby.tom@btech.christuniveristy.in"
             }
         ],
-        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+        register: "https://forms.gle/LvhatwCkN87r6E57A"
     },
     javaworkshop: {
         name: "Java Programming",
@@ -586,10 +586,10 @@ const events = {
                 email: "eby.tom@btech.christuniveristy.in"
             }
         ],
-        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+        register: "https://forms.gle/uFsiMC1qX1x9rRGTA"
     },
     cworkshop: {
-        name: "C Programmning",
+        name: "C Programming",
         tagline: "From Beginner to Pro: C Your Way to Success.",
         rounds: "1 Round",
         duration: "3 Days",
@@ -621,10 +621,10 @@ const events = {
                 email: "eby.tom@btech.christuniveristy.in"
             }
         ],
-        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+        register: "https://forms.gle/qwNr9AveevnpGuuMA"
     },
     researchworkshop: {
-        name: "Research",
+        name: "Research Workshop",
         tagline: "Explore, Discover, Innovate: Join the Research Revolution.",
         rounds: "1 Round",
         duration: "3 Days",
@@ -656,7 +656,7 @@ const events = {
                 email: "eby.tom@btech.christuniveristy.in"
             }
         ],
-        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+        register: "https://forms.gle/jrn7KFAZAGH58PXP6"
     }
 }
 
