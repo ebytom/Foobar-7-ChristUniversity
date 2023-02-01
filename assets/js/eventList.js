@@ -1,18 +1,4 @@
 const eventList = {
-  "four": [
-    {
-      "id": "inauguration",
-      "name": "Inauguration",
-      "time": "4 PM - 6 PM",
-      "venue": "Open Audi"
-    }
-  ],
-  "five": [
-    {
-      "id": "nothing",
-      "type": "noevent"
-    }
-  ],
   "six": [
     {
       "id": "openmic",
@@ -269,14 +255,9 @@ const eventList = {
   ]
 }
 
+var numDate = new Date().getDate()
 
-// eventList[v].map(eventList=>{
-//   var elem = `<div class="elecard">${event}</div>`
-//   document.getElementById('childdiv1').innerHTML += elem;
-// })
-// const [key, value] of Object.entries(dataGood)
 for (const [key, value] of Object.entries(eventList)) {
-
   const mid = document.createElement("div");
   mid.setAttribute('class', `events-container ${key}`)
   const midspan = document.createElement("span");
@@ -351,10 +332,17 @@ for (const [key, value] of Object.entries(eventList)) {
     elem.appendChild(child);
   })
 
-  midspan.innerText = "Upcoming events today";
+  midspan.innerText = "Upcoming events";
   mid.appendChild(midspan)
   mid.appendChild(elem);
   document.getElementsByClassName('portfolio-container')[0].appendChild(mid)
 }
 
+
+setTimeout(() => {
+  if(numDate<6){
+    document.getElementById(`calenderid${6}`).click()
+  }
+  document.getElementById(`calenderid${numDate}`).click()
+}, 500);
 
