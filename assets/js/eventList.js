@@ -183,14 +183,6 @@ const eventList = {
       "venue": "245, Block II",
       "register": "",
       "more": "event.html?event=javaworkshop"
-    },
-    {
-      "id": "researchworkshop",
-      "name": "RESEARCH WRITING WORKSHOP",
-      "time": "9:00 AM",
-      "venue": "Audi, Block I",
-      "register": "",
-      "more": "event.html?event=javaworkshop"
     }
   ],
   "twentytwo": [
@@ -229,6 +221,14 @@ const eventList = {
       "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=cworkshop"
+    },
+    {
+      "id": "researchworkshop",
+      "name": "RESEARCH WRITING WORKSHOP",
+      "time": "9:00 AM",
+      "venue": "Audi, Block I",
+      "register": "",
+      "more": "event.html?event=javaworkshop"
     }
   ],
   "twentyfive": [
