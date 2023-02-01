@@ -263,7 +263,7 @@ const events = {
         ],
         register: "https://forms.gle/bs1AhGceLpTvLiwD7"
     },
-    kbgames: {
+    gamedevelopment: {
         name: "KB Games",
         tagline: "Stop playing start developing",
         rounds: "1 Round",

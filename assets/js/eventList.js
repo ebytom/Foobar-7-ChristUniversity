@@ -98,7 +98,7 @@ const eventList = {
       "time": "2:00 PM",
       "venue": "242, Block II",
       "register": "https://forms.gle/JdbweAN2XhjreXou8",
-      "more": "event.html?event=kbgames"
+      "more": "event.html?event=gamedevelopment"
     },
     {
       "id": "flix",
