@@ -263,7 +263,7 @@ const events = {
         ],
         register: "https://forms.gle/bs1AhGceLpTvLiwD7"
     },
-    gamedevelopment: {
+    kbgames: {
         name: "KB Games",
         tagline: "Stop playing start developing",
         rounds: "1 Round",
@@ -483,6 +483,181 @@ const events = {
         ],
         register: "https://forms.gle/oMhrSXaodaFe6EYF9"
     },
+    webdevworkshop: {
+        name: "Web Development",
+        tagline: "Innovate. Create. Rule the Web.",
+        rounds: "1 Round",
+        duration: "3 Days",
+        type: "Workshop",
+        eventsize: "Individual Event",
+        date: "February 10",
+        time: "1:00 PM",
+        venue: "246, Block II",
+        club: "Fullstack Development Club",
+        poster: "assets/imgs/poster/pos8.jpg",
+        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
+        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        rules: [
+            "It can be individual work or a maximum of 3 members in a team.",
+            "The competition is about designing a website using HTML, CSS, and JS codes.",
+            "Should contain at least 2 sub-pages.",
+            "Websites should contain information relevant to the topic given.",
+            "The participants are given 3 days to complete the website and to submit it by 12/02/2023.",
+            "Submit both source code and hosted URL",
+            "Using templates or source code from other websites will be considered cheating.",
+            "No extensions to the deadline will be provided.",
+            "Participants should not make changes to their entries after the deadline for submissions."
+        ],
+        contact: [
+            {
+                name: "Jeffery",
+                design: "Club Head - Fullstack Development Club",
+                phno: "+91 8547520864",
+                email: "eby.tom@btech.christuniveristy.in"
+            }
+        ],
+        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+    },
+    gamedevworkshop: {
+        name: "Game Development",
+        tagline: "Bring Your Gaming Dreams to Reality: Join the Development Revolution.",
+        rounds: "1 Round",
+        duration: "3 Days",
+        type: "Workshop",
+        eventsize: "Individual Event",
+        date: "February 10",
+        time: "1:00 PM",
+        venue: "246, Block II",
+        club: "Fullstack Development Club",
+        poster: "assets/imgs/poster/pos8.jpg",
+        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
+        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        rules: [
+            "It can be individual work or a maximum of 3 members in a team.",
+            "The competition is about designing a website using HTML, CSS, and JS codes.",
+            "Should contain at least 2 sub-pages.",
+            "Websites should contain information relevant to the topic given.",
+            "The participants are given 3 days to complete the website and to submit it by 12/02/2023.",
+            "Submit both source code and hosted URL",
+            "Using templates or source code from other websites will be considered cheating.",
+            "No extensions to the deadline will be provided.",
+            "Participants should not make changes to their entries after the deadline for submissions."
+        ],
+        contact: [
+            {
+                name: "Eby Tom",
+                design: "Club Head - Fullstack Development Club",
+                phno: "+91 8547520864",
+                email: "eby.tom@btech.christuniveristy.in"
+            }
+        ],
+        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+    },
+    javaworkshop: {
+        name: "Java Programming",
+        tagline: "Unlock the Power of Java: Master the Art of Programming.",
+        rounds: "1 Round",
+        duration: "3 Days",
+        type: "Workshop",
+        eventsize: "Individual Event",
+        date: "February 10",
+        time: "1:00 PM",
+        venue: "246, Block II",
+        club: "Fullstack Development Club",
+        poster: "assets/imgs/poster/pos8.jpg",
+        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
+        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        rules: [
+            "It can be individual work or a maximum of 3 members in a team.",
+            "The competition is about designing a website using HTML, CSS, and JS codes.",
+            "Should contain at least 2 sub-pages.",
+            "Websites should contain information relevant to the topic given.",
+            "The participants are given 3 days to complete the website and to submit it by 12/02/2023.",
+            "Submit both source code and hosted URL",
+            "Using templates or source code from other websites will be considered cheating.",
+            "No extensions to the deadline will be provided.",
+            "Participants should not make changes to their entries after the deadline for submissions."
+        ],
+        contact: [
+            {
+                name: "Eby Tom",
+                design: "Club Head - Fullstack Development Club",
+                phno: "+91 8547520864",
+                email: "eby.tom@btech.christuniveristy.in"
+            }
+        ],
+        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+    },
+    cworkshop: {
+        name: "C Programmning",
+        tagline: "From Beginner to Pro: C Your Way to Success.",
+        rounds: "1 Round",
+        duration: "3 Days",
+        type: "Workshop",
+        eventsize: "Individual Event",
+        date: "February 10",
+        time: "1:00 PM",
+        venue: "246, Block II",
+        club: "Fullstack Development Club",
+        poster: "assets/imgs/poster/pos8.jpg",
+        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
+        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        rules: [
+            "It can be individual work or a maximum of 3 members in a team.",
+            "The competition is about designing a website using HTML, CSS, and JS codes.",
+            "Should contain at least 2 sub-pages.",
+            "Websites should contain information relevant to the topic given.",
+            "The participants are given 3 days to complete the website and to submit it by 12/02/2023.",
+            "Submit both source code and hosted URL",
+            "Using templates or source code from other websites will be considered cheating.",
+            "No extensions to the deadline will be provided.",
+            "Participants should not make changes to their entries after the deadline for submissions."
+        ],
+        contact: [
+            {
+                name: "Eby Tom",
+                design: "Club Head - Fullstack Development Club",
+                phno: "+91 8547520864",
+                email: "eby.tom@btech.christuniveristy.in"
+            }
+        ],
+        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+    },
+    researchworkshop: {
+        name: "Research",
+        tagline: "Explore, Discover, Innovate: Join the Research Revolution.",
+        rounds: "1 Round",
+        duration: "3 Days",
+        type: "Workshop",
+        eventsize: "Individual Event",
+        date: "February 10",
+        time: "1:00 PM",
+        venue: "246, Block II",
+        club: "Fullstack Development Club",
+        poster: "assets/imgs/poster/pos8.jpg",
+        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
+        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        rules: [
+            "It can be individual work or a maximum of 3 members in a team.",
+            "The competition is about designing a website using HTML, CSS, and JS codes.",
+            "Should contain at least 2 sub-pages.",
+            "Websites should contain information relevant to the topic given.",
+            "The participants are given 3 days to complete the website and to submit it by 12/02/2023.",
+            "Submit both source code and hosted URL",
+            "Using templates or source code from other websites will be considered cheating.",
+            "No extensions to the deadline will be provided.",
+            "Participants should not make changes to their entries after the deadline for submissions."
+        ],
+        contact: [
+            {
+                name: "Eby Tom",
+                design: "Club Head - Fullstack Development Club",
+                phno: "+91 8547520864",
+                email: "eby.tom@btech.christuniveristy.in"
+            }
+        ],
+        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+    }
 }
 
 
