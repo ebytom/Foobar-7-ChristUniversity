@@ -486,19 +486,18 @@ const events = {
     webdevworkshop: {
         name: "Web Development Workshop",
         tagline: "Innovate. Create. Rule the Web.",
-        rounds: "1 Round",
-        duration: "3 Days",
+        rounds: "Feb - 27,28",
+        duration: "2 Days",
         type: "Workshop",
-        eventsize: "Individual Event",
-        date: "Feb - 27,28",
-        time: "4:00 PM",
+        eventsize: "-",
+        date: "Day 1 - 4:00PM",
+        time: "Day 2 - 2:00PM",
         venue: "246, Block II",
-        club: "Fullstack Development Club",
+        club: "Fullstack/Web Development Club",
         poster: "assets/imgs/poster/pos7.jpg",
-        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
-        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        plan: "This workshop is an introduction to the basics of web development. Participants will learn how to create dynamic, interactive websites using HTML, CSS, and JavaScript. Topics covered include website structure and design, how to write and style HTML, and how to add interactivity with JavaScript. The workshop will also touch on web hosting and basic SEO techniques. No prior coding experience is necessary, but participants should have a basic understanding of computer systems and the internet. The goal of this workshop is to give participants the tools and knowledge they need to build their own websites and to further their understanding of web development.",
+        desc: "",
         rules: [
-
         ],
         contact: [
             {
@@ -513,26 +512,26 @@ const events = {
     gamedevworkshop: {
         name: "Game Development",
         tagline: "Bring Your Gaming Dreams to Reality: Join the Development Revolution.",
-        rounds: "1 Round",
-        duration: "3 Days",
+        rounds: "Feb - 21,22",
+        duration: "2 Days",
         type: "Workshop",
-        eventsize: "Individual Event",
-        date: "February 10",
-        time: "1:00 PM",
+        eventsize: "-",
+        date: "Day 1 - 2:00PM",
+        time: "Day 2 - 4:00PM",
         venue: "246, Block II",
-        club: "Fullstack Development Club",
+        club: "Game Development Club",
         poster: "assets/imgs/poster/pos11.jpg",
-        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
-        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        plan: "This workshop provides an introduction to the world of gaming and game design. Participants will learn about different types of games, game engines, and game design principles. Topics covered include game mechanics, level design, and game scripting. Participants will also get hands-on experience with game development tools and techniques, and will work on several game development projects throughout the workshop. No prior experience with game design or programming is required, but a basic understanding of computer systems is recommended. The goal of this workshop is to give participants an understanding of the game development process and to provide them with the skills they need to start designing and developing their own games. Whether you're a beginner looking to learn about the exciting world of gaming or an experienced gamer looking to take your skills to the next level, this workshop is for you!",
+        desc: "",
         rules: [
 
         ],
         contact: [
             {
-                name: "Eby Tom",
-                design: "Club Head - Fullstack Development Club",
-                phno: "+91 8547520864",
-                email: "eby.tom@btech.christuniveristy.in"
+                name: "Adith Menon",
+                design: "Club Head - Web Development Club",
+                phno: "+91 9560891950",
+                email: "adith.menon@btech.christuniveristy.in"
             }
         ],
         register: "https://forms.gle/LvhatwCkN87r6E57A"
@@ -540,26 +539,26 @@ const events = {
     javaworkshop: {
         name: "Java Programming",
         tagline: "Unlock the Power of Java: Master the Art of Programming.",
-        rounds: "1 Round",
-        duration: "3 Days",
+        rounds: "Feb - 22,23",
+        duration: "2 Days",
         type: "Workshop",
-        eventsize: "Individual Event",
-        date: "February 10",
-        time: "1:00 PM",
-        venue: "246, Block II",
-        club: "Fullstack Development Club",
-        poster: "assets/imgs/poster/pos8.jpg",
-        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
-        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        eventsize: "-",
+        date: "Day 1 - 4:00PM",
+        time: "Day 2 - 4:00PM",
+        venue: "242, Block II",
+        club: "Coders Club",
+        poster: "assets/imgs/poster/pos19.jpg",
+        plan: "This workshop provides a comprehensive  introduction to the Java programming language. Participants will learn the basics of Java syntax, object-oriented programming, and data structures. Topics covered include variables, control structures, classes, interfaces, and exceptions. The workshop will also touch on common Java libraries, frameworks, and best practices for writing efficient and maintainable code. Participants will get hands-on experience with writing and debugging Java code, and will complete several projects to solidify their knowledge. No prior programming experience is required, but a basic understanding of computer systems and algorithms is recommended. The goal of this workshop is to give participants the foundation they need to start coding in Java and to further their understanding of computer programming.",
+        desc: "",
         rules: [
 
         ],
         contact: [
             {
-                name: "Eby Tom",
-                design: "Club Head - Fullstack Development Club",
-                phno: "+91 8547520864",
-                email: "eby.tom@btech.christuniveristy.in"
+                name: "Vyshnav Karun",
+                design: "",
+                phno: "+91 9113532991",
+                email: "vyshnav.ks@btech.christuniveristy.in"
             }
         ],
         register: "https://forms.gle/uFsiMC1qX1x9rRGTA"
@@ -567,26 +566,26 @@ const events = {
     cworkshop: {
         name: "C Programming",
         tagline: "From Beginner to Pro: C Your Way to Success.",
-        rounds: "1 Round",
-        duration: "3 Days",
+        rounds: "Feb - 24,25",
+        duration: "2 Days",
         type: "Workshop",
-        eventsize: "Individual Event",
-        date: "February 10",
-        time: "1:00 PM",
-        venue: "246, Block II",
-        club: "Fullstack Development Club",
+        eventsize: "-",
+        date: "Day 1 - 2:00PM",
+        time: "Day 2 - 2:00PM",
+        venue: "242, Block II",
+        club: "Coders Development Club",
         poster: "assets/imgs/poster/pos18.jpg",
-        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
-        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        plan: "This workshop will provide an introduction to the C programming language. Participants will learn the fundamentals of C syntax, data types, control structures, functions, and pointers. Topics will also include an overview of common libraries and functions in C, and how to write and debug programs in C. Participants will also get hands-on experience with coding and developing simple C programs. No prior programming experience is required, but a basic understanding of computer systems and algorithms is recommended. This workshop is ideal for beginners who want to start learning programming or those who want to expand their skills in C programming. The goal of this workshop is to equip participants with the foundational knowledge and practical skills needed to start coding in C and to further their understanding of computer programming.",
+        desc: "",
         rules: [
 
         ],
         contact: [
             {
-                name: "Eby Tom",
+                name: "Suhaas Joshi",
                 design: "Club Head - Fullstack Development Club",
-                phno: "+91 8547520864",
-                email: "eby.tom@btech.christuniveristy.in"
+                phno: "+91 7625015757",
+                email: "suhaas.joshi@btech.christuniversity.in"
             }
         ],
         register: "https://forms.gle/qwNr9AveevnpGuuMA"
@@ -594,26 +593,26 @@ const events = {
     researchworkshop: {
         name: "Research Workshop",
         tagline: "Explore, Discover, Innovate: Join the Research Revolution.",
-        rounds: "1 Round",
-        duration: "3 Days",
+        rounds: "CSE Dept",
+        duration: "1 Day",
         type: "Workshop",
-        eventsize: "Individual Event",
-        date: "February 10",
-        time: "1:00 PM",
-        venue: "246, Block II",
-        club: "Fullstack Development Club",
+        eventsize: "-",
+        date: "February 24",
+        time: "9:00 AM",
+        venue: "Audi, Block I",
+        club: "ASCII",
         poster: "assets/imgs/poster/pos2.jpg",
-        desc: "Webally is a Web development competition which is open to all Christ University students where participants can form a team of maximum 3 members. The event will start from 10th Feb 4PM and final work has to be submitted by 13 Feb 11:59PM. They have to develop a website relevant to the topic provided. The topic and relevant resources will be provided on the starting day.",
-        plan: "1 round, 3 days. The topic and relevant resources will be provided on the starting day. A doubt-clearing session will be conducted on the starting day. Participants must complete developing the website within 3 days and the submission form will be available from the second day. The top 2 websites which satisfy the most judgment criteria will be selected.",
+        plan: "This workshop is designed to help participants develop their research writing skills. Participants will learn how to effectively plan, structure, and write research papers, theses, dissertations, and other academic documents. Topics covered include writing styles and conventions, critical thinking, and evidence-based arguments. The workshop will also cover editing and revision techniques to help participants refine their writing and improve the clarity and coherence of their writing. Participants will have the opportunity to work on writing exercises and receive feedback from the instructor and other workshop participants. This workshop is ideal for students, researchers, and professionals who want to improve their research writing skills and communicate their ideas and findings more effectively. The goal of this workshop is to provide participants with the knowledge, skills, and tools they need to write well-structured, clear, and persuasive research documents.",
+        desc: "",
         rules: [
 
         ],
         contact: [
             {
-                name: "Eby Tom",
-                design: "Club Head - Fullstack Development Club",
-                phno: "+91 8547520864",
-                email: "eby.tom@btech.christuniveristy.in"
+                name: "Jaison James",
+                design: "President, ASCII",
+                phno: "+91 7043498279",
+                email: "jaison.j@btech.christuniveristy.in"
             }
         ],
         register: "https://forms.gle/jrn7KFAZAGH58PXP6"
@@ -652,3 +651,10 @@ document.getElementById("eventcontactname").innerText = currentevent.contact[0].
 document.getElementById("eventcontactdesign").innerText = currentevent.contact[0].design;
 document.getElementById("eventcontactnumber").innerText = currentevent.contact[0].phno;
 document.getElementById("eventcontactemail").innerText = currentevent.contact[0].email;
+
+
+if(currentevent.type=="Workshop")
+{
+    document.getElementById("eventPlanAction").innerHTML ="Description<br>";
+    document.getElementById("eventRule").style.display="none";
+}
