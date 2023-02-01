@@ -255,19 +255,7 @@ const eventList = {
   ]
 }
 
-
-// eventList[v].map(eventList=>{
-//   var elem = `<div class="elecard">${event}</div>`
-//   document.getElementById('childdiv1').innerHTML += elem;
-// })
-// const [key, value] of Object.entries(dataGood)
-var dg = ['zero','one','two','three','four',
-'five','six','seven','eight','nine','ten','eleven','twelve','thirteen', 'fourteen','fifteen','sixteen',
-'seventeen','eighteen','nineteen','twenty','thirty','forty','fifty',
-'sixty','seventy','eighty','ninety'];
-
 var numDate = new Date().getDate()
-var wordDate = dg[numDate]
 
 for (const [key, value] of Object.entries(eventList)) {
   const mid = document.createElement("div");
