@@ -71,7 +71,7 @@ const eventList = {
       "name": "ACE CLUTCH",
       "time": "10:00 AM",
       "venue": "242, Block II",
-      "register": "https://forms.gle/MHHA2dtinKRRGxUD6",
+      "register": "https://forms.gle/whGnfCmXXMc3eFPw7",
       "more": "event.html?event=aceclutch"
     }
   ],

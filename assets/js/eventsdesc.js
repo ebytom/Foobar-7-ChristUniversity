@@ -63,7 +63,7 @@ const events = {
                 email: "m.khashif@btech.christuniversity.in"
             }
         ],
-        register: "https://forms.gle/oMhrSXaodaFe6EYF9"
+        register: "https://forms.gle/whGnfCmXXMc3eFPw7"
     },
     aihackathon: {
         name: "AI Hackathon",
