@@ -332,7 +332,7 @@ for (const [key, value] of Object.entries(eventList)) {
     elem.appendChild(child);
   })
 
-  midspan.innerText = "Upcoming events today";
+  midspan.innerText = "Upcoming events";
   mid.appendChild(midspan)
   mid.appendChild(elem);
   document.getElementsByClassName('portfolio-container')[0].appendChild(mid)
