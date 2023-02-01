@@ -23,7 +23,7 @@ const events = {
             {
                 name: "Jerrin Jays",
                 design: "Club Head, Design Club",
-                phno: "+91 9446222358",
+                phno: "9446222358",
                 email: "jerrin.jays@btech.christuniversity.in"
             }
         ],
@@ -59,7 +59,7 @@ const events = {
             {
                 name: "Mohammed Khashif S",
                 design: "Club Head - Game Development Club",
-                phno: "+91 9940964092",
+                phno: "9940964092",
                 email: "m.khashif@btech.christuniversity.in"
             }
         ],
@@ -92,7 +92,7 @@ const events = {
             {
                 name: "B Uday Satya Sai",
                 design: "Club head-Neuron Club",
-                phno: "+91 9347132570",
+                phno: "9347132570",
                 email: "bandi.uday@btech.christuniversity.in"
             }
         ],
@@ -126,7 +126,7 @@ const events = {
             {
                 name: "Krishna Sreekumar",
                 design: "Club Head - Coders Club",
-                phno: "+91 7259841140",
+                phno: "7259841140",
                 email: "krishna.sreekumar@btech.christuniversity.in"
             }
         ],
@@ -160,7 +160,7 @@ const events = {
             {
                 name: "Alan Sabu Mathew",
                 design: "Club head-Coders Club",
-                phno: "+91 8904652571",
+                phno: "8904652571",
                 email: "alan.mathew@btech.christuniveristy.in"
             }
         ],
@@ -196,7 +196,7 @@ const events = {
             {
                 name: "Suhaas Joshi",
                 design: "Club Head, Coders Club",
-                phno: "+91 7625015757",
+                phno: "7625015757",
                 email: "suhaas.joshi@btech.christuniversity.in"
             }
         ],
@@ -226,7 +226,7 @@ const events = {
             {
                 name: "Alan P Sunny",
                 design: "Club Head, Full Stack Development Club",
-                phno: "+91 9074660438",
+                phno: "9074660438",
                 email: "alan.p@btech.christuniveristy.in"
             }
         ],
@@ -257,7 +257,7 @@ const events = {
             {
                 name: "Jerrin Jays",
                 design: "Club Head, Design Club",
-                phno: "+91 9446888358",
+                phno: "9446888358",
                 email: "jerrin.jays@btech.christuniveristy.in"
             }
         ],
@@ -288,7 +288,7 @@ const events = {
             {
                 name: "Priyanshu Biswas",
                 design: "Club Head, Game Development Club",
-                phno: "+91 7679349724",
+                phno: "7679349724",
                 email: "priyanshu.biswas@btech.christuniveristy.in"
             }
         ],
@@ -326,7 +326,7 @@ const events = {
             {
                 name: "Jainam Purushotam Patel",
                 design: "Club Head, Neuron Club",
-                phno: "+91 8104392202",
+                phno: "8104392202",
                 email: "jainam.purshotam@btech.christuniversity.in"
             }
         ],
@@ -356,7 +356,7 @@ const events = {
             {
                 name: "Jerrin Jays",
                 design: "Club Head, Design Club",
-                phno: "+91 9446222358",
+                phno: "9446222358",
                 email: "jerrin.jays@btech.christuniversity.in"
             }
         ],
@@ -387,7 +387,7 @@ const events = {
             {
                 name: "Jerrin Jays",
                 design: "Club Head, Design Club",
-                phno: "+91 9446222358",
+                phno: "9446222358",
                 email: "jerrin.jays@btech.christuniveristy.in"
             }
         ],
@@ -442,7 +442,7 @@ const events = {
             {
                 name: "Adith Menon",
                 design: "Club Head - Web Development Club",
-                phno: "+91 9560891950",
+                phno: "9560891950",
                 email: "adith.menon@btech.christuniveristy.in"
             }
         ],
@@ -477,7 +477,7 @@ const events = {
             {
                 name: "Eby Tom",
                 design: "Club Head - Fullstack Development Club",
-                phno: "+91 8547520864",
+                phno: "8547520864",
                 email: "eby.tom@btech.christuniveristy.in"
             }
         ],
@@ -503,7 +503,7 @@ const events = {
             {
                 name: "Jeffery",
                 design: "Club Head - Web Development Club",
-                phno: "+91 7548885586",
+                phno: "7548885586",
                 email: "jeffery.raj@btech.christuniveristy.in"
             }
         ],
@@ -530,7 +530,7 @@ const events = {
             {
                 name: "Adith Menon",
                 design: "Club Head - Web Development Club",
-                phno: "+91 9560891950",
+                phno: "9560891950",
                 email: "adith.menon@btech.christuniveristy.in"
             }
         ],
@@ -557,7 +557,7 @@ const events = {
             {
                 name: "Vyshnav Karun",
                 design: "",
-                phno: "+91 9113532991",
+                phno: "9113532991",
                 email: "vyshnav.ks@btech.christuniveristy.in"
             }
         ],
@@ -584,7 +584,7 @@ const events = {
             {
                 name: "Suhaas Joshi",
                 design: "Club Head - Fullstack Development Club",
-                phno: "+91 7625015757",
+                phno: "7625015757",
                 email: "suhaas.joshi@btech.christuniversity.in"
             }
         ],
@@ -611,7 +611,7 @@ const events = {
             {
                 name: "Jaison James",
                 design: "President, ASCII",
-                phno: "+91 7043498279",
+                phno: "7043498279",
                 email: "jaison.j@btech.christuniveristy.in"
             }
         ],
@@ -649,8 +649,10 @@ document.getElementById("eventposter").setAttribute('src', currentevent.poster);
 
 document.getElementById("eventcontactname").innerText = currentevent.contact[0].name;
 document.getElementById("eventcontactdesign").innerText = currentevent.contact[0].design;
-document.getElementById("eventcontactnumber").innerText = currentevent.contact[0].phno;
+document.getElementById("eventcontactnumber").innerText = `+91 ${currentevent.contact[0].phno}`;
 document.getElementById("eventcontactemail").innerText = currentevent.contact[0].email;
+document.getElementById("eventHeadNumber").setAttribute('href',`https://wa.me/91${currentevent.contact[0].phno}`);
+document.getElementById("eventHeadEmail").setAttribute('href',`mailto:${currentevent.contact[0].email}`);
 
 
 if(currentevent.type=="Workshop")
@@ -658,3 +660,4 @@ if(currentevent.type=="Workshop")
     document.getElementById("eventPlanAction").innerHTML ="Description<br>";
     document.getElementById("eventRule").style.display="none";
 }
+
