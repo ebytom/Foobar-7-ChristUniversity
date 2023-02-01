@@ -17,7 +17,7 @@ const eventList = {
     {
       "id": "openmic",
       "name": "OPEN MIC",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "Open Audi",
       "register": "https://forms.gle/Zdng2YqDUob2vYh28",
       "more": "event.html?event=openmic"
@@ -27,7 +27,7 @@ const eventList = {
     {
       "id": "ai",
       "name": "AI HACKATHON",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "242, Block II",
       "register": "https://forms.gle/KAp4ERDtBzBLaXwL6",
       "more": "event.html?event=aihackathon"
@@ -37,7 +37,7 @@ const eventList = {
     {
       "id": "query",
       "name": "BREAK THE QUERY",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "257, Block II",
       "register": "https://forms.gle/4uipUXZzcTAyomL47",
       "more": "event.html?event=breakthequery"
@@ -47,7 +47,7 @@ const eventList = {
     {
       "id": "codeathon",
       "name": "CODEATHON",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "255, Block II",
       "register": "https://forms.gle/hRJEKMbe4sBo5XjMA",
       "more": "event.html?event=codeathon"
@@ -57,23 +57,23 @@ const eventList = {
     {
       "id": "webally",
       "name": "WEB ALLY",
-      "time": "1PM",
+      "time": "1:00 PM",
       "venue": "246, Block II",
       "register": "https://forms.gle/oMhrSXaodaFe6EYF9",
       "more": "event.html?event=webally"
     },
     {
-      "id": "blind",
-      "name": "BLIND TYPING",
-      "time": "2PM - 4PM",
-      "venue": "257, Block II",
-      "register": "https://forms.gle/kpkvRDHMNGVejeUi7",
-      "more": "event.html?event=blindtyping"
+      "id": "illustra",
+      "name": "ILLUSTRA",
+      "time": "2:00 PM",
+      "venue": "242, Block II",
+      "register": "https://forms.gle/Q8ioT35J7Aybjbpx7",
+      "more": "event.html?event=illustra"
     },
     {
       "id": "ideathon",
       "name": "IDEATHON",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "255, Block II",
       "register": "https://forms.gle/wJP7ZkktAWFFLyZ36",
       "more": "event.html?event=ideathon"
@@ -83,7 +83,7 @@ const eventList = {
     {
       "id": "ace",
       "name": "ACE CLUTCH",
-      "time": "10AM - 4PM",
+      "time": "10:00 AM",
       "venue": "242, Block II",
       "register": "https://forms.gle/MHHA2dtinKRRGxUD6",
       "more": "event.html?event=aceclutch"
@@ -99,7 +99,7 @@ const eventList = {
     {
       "id": "image",
       "name": "IMAGE BRUSH",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "242, Block II",
       "register": "https://forms.gle/MdH5oZED5BVrstwg8",
       "more": "event.html?event=imagebrush"
@@ -109,7 +109,7 @@ const eventList = {
     {
       "id": "short",
       "name": "KB GAMES",
-      "time": "2PM - 4PM",
+      "time": "2:00 PM",
       "venue": "242, Block II",
       "register": "https://forms.gle/JdbweAN2XhjreXou8",
       "more": "event.html?event=gamedevelopment"
@@ -117,27 +117,27 @@ const eventList = {
     {
       "id": "flix",
       "name": "FLIX n MANGA",
-      "time": "4PM - 6PM",
-      "venue": "Seminar Hall, Block II",
+      "time": "4:00 PM",
+      "venue": "256, Block II",
       "register": "https://forms.gle/KJF9j3QGJLUcU4v5A",
       "more": "event.html?event=flixnmanga"
     }
   ],
   "fifteen": [
     {
-      "id": "illustra",
-      "name": "ILLUSTRA",
-      "time": "4PM - 6PM",
-      "venue": "242, Block II",
-      "register": "https://forms.gle/Q8ioT35J7Aybjbpx7",
-      "more": "event.html?event=illustra"
+      "id": "blind",
+      "name": "BLIND TYPING",
+      "time": "4:00 PM",
+      "venue": "257, Block II",
+      "register": "https://forms.gle/kpkvRDHMNGVejeUi7",
+      "more": "event.html?event=blindtyping"
     }
   ],
   "sixteen": [
     {
       "id": "css",
       "name": "CSS BATTLE",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "215, Block II",
       "register": "https://forms.gle/fTD8DzgAsz9d6RyZ8",
       "more": "event.html?event=cssbattle"
@@ -147,7 +147,7 @@ const eventList = {
     {
       "id": "quiz",
       "name": "TECH QUIZ",
-      "time": "2PM - 4PM",
+      "time": "2:00 PM",
       "venue": "Audi, Block I",
       "register": "https://forms.gle/GW4jrHXvGkgaXngD6",
       "more": "event.html?event=teckquiz"
@@ -169,7 +169,7 @@ const eventList = {
     {
       "id": "accio",
       "name": "ACCIO LA NOCIEN",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "242, Block II",
       "register": "https://forms.gle/5Us54QTy62CMNCUd6",
       "more": "event.html?event=acciolanocien"
@@ -179,7 +179,7 @@ const eventList = {
     {
       "id": "gameworkshop",
       "name": "GAMING WORKSHOP",
-      "time": "2PM - 4PM",
+      "time": "2:00 PM",
       "venue": "245, Block II",
       "register": "",
       "more": "event.html?event=javaworkshop"
@@ -187,7 +187,7 @@ const eventList = {
     {
       "id": "researchworkshop",
       "name": "RESEARCH WRITING WORKSHOP",
-      "time": "9AM - 4PM",
+      "time": "9:00 AM",
       "venue": "Audi, Block I",
       "register": "",
       "more": "event.html?event=javaworkshop"
@@ -197,7 +197,7 @@ const eventList = {
     {
       "id": "gameworkshop",
       "name": "GAMING WORKSHOP",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "245, Block II",
       "register": "",
       "more": "event.html?event=javaworkshop"
@@ -205,7 +205,7 @@ const eventList = {
     {
       "id": "java",
       "name": "JAVA WORKSHOP",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=javaworkshop"
@@ -215,7 +215,7 @@ const eventList = {
     {
       "id": "java",
       "name": "JAVA WORKSHOP",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=javaworkshop"
@@ -225,7 +225,7 @@ const eventList = {
     {
       "id": "c",
       "name": "C WORKSHOP",
-      "time": "2PM - 4PM",
+      "time": "2:00 PM",
       "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=cworkshop"
@@ -235,7 +235,7 @@ const eventList = {
     {
       "id": "c",
       "name": "C WORKSHOP",
-      "time": "2PM - 4PM",
+      "time": "2:00 PM",
       "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=cworkshop"
@@ -251,7 +251,7 @@ const eventList = {
     {
       "id": "web",
       "name": "WEB DEVELOPMENT WORKSHOP",
-      "time": "4PM - 6PM",
+      "time": "4:00 PM",
       "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=webdevworkshop"
@@ -261,7 +261,7 @@ const eventList = {
     {
       "id": "web",
       "name": "WEB DEVELOPMENT WORKSHOP",
-      "time": "2PM - 4PM",
+      "time": "2:00 PM",
       "venue": "242, Block II",
       "register": "",
       "more": "event.html?event=webdevworkshop"
