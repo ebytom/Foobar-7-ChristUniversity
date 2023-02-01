@@ -255,7 +255,6 @@ const eventList = {
   ]
 }
 
-var numDate = new Date().getDate()
 
 for (const [key, value] of Object.entries(eventList)) {
   const mid = document.createElement("div");
@@ -338,6 +337,7 @@ for (const [key, value] of Object.entries(eventList)) {
   document.getElementsByClassName('portfolio-container')[0].appendChild(mid)
 }
 
+var numDate = new Date().getDate()
 
 setTimeout(() => {
   if(numDate<6){

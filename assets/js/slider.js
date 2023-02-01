@@ -1,14 +1,6 @@
 //slideshow style interval
 var autoSwap = setInterval( swap,3000);
 
-//pause slideshow and reinstantiate on mouseout
-// $('ul, span').hover(
-//   function () {
-//     clearInterval(autoSwap);
-// }, 
-//   function () {
-//    autoSwap = setInterval( swap,2500);
-// });
 
 //global variables
 var items = [];
@@ -84,16 +76,6 @@ function swap(action) {
     }
   }
 }
-
-//next button click function
-$('#next').click(function() {
-  swap('clockwise');
-});
-
-//prev button click function
-$('#prev').click(function() {
-  swap('counter-clockwise');
-});
 
 //if any visible items are clicked
 $('li').click(function() {
