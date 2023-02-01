@@ -1,18 +1,4 @@
 const eventList = {
-  "four": [
-    {
-      "id": "inauguration",
-      "name": "Inauguration",
-      "time": "4 PM - 6 PM",
-      "venue": "Open Audi"
-    }
-  ],
-  "five": [
-    {
-      "id": "nothing",
-      "type": "noevent"
-    }
-  ],
   "six": [
     {
       "id": "openmic",
@@ -275,8 +261,15 @@ const eventList = {
 //   document.getElementById('childdiv1').innerHTML += elem;
 // })
 // const [key, value] of Object.entries(dataGood)
-for (const [key, value] of Object.entries(eventList)) {
+var dg = ['zero','one','two','three','four',
+'five','six','seven','eight','nine','ten','eleven','twelve','thirteen', 'fourteen','fifteen','sixteen',
+'seventeen','eighteen','nineteen','twenty','thirty','forty','fifty',
+'sixty','seventy','eighty','ninety'];
 
+var numDate = new Date().getDate()
+var wordDate = dg[numDate]
+
+for (const [key, value] of Object.entries(eventList)) {
   const mid = document.createElement("div");
   mid.setAttribute('class', `events-container ${key}`)
   const midspan = document.createElement("span");
@@ -357,4 +350,11 @@ for (const [key, value] of Object.entries(eventList)) {
   document.getElementsByClassName('portfolio-container')[0].appendChild(mid)
 }
 
+
+setTimeout(() => {
+  if(numDate<6){
+    document.getElementById(`calenderid${6}`).click()
+  }
+  document.getElementById(`calenderid${numDate}`).click()
+}, 500);
 
