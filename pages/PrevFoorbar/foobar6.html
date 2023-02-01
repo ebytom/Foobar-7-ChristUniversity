@@ -12,6 +12,8 @@
     <!-- Bootstrap + LeadMark main styles -->
     <link rel="stylesheet" href="../../assets/css/leadmark.css">
     <link rel="stylesheet" href="../../assets/css/slider.css">
+    <link rel="stylesheet" href="../../assets/css/eventpagedpn.css">
+
     <!-- <link href="../../assets/scss/slider/slider.scss" rel="stylesheet/scss" type="text/css"> -->
     <link rel="shortcut icon" href="../../assets/imgs/foobar7.png" />
     <script src="https://kit.fontawesome.com/9589c450f7.js" crossorigin="anonymous"></script>
@@ -44,46 +46,46 @@
                             <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Technical
                                     Events</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="event.html?event=breakthequery">Break the
+                                    <li><a class="dropdown-item" href="/event.html?event=breakthequery">Break the
                                             query</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=codeathon">Codeathon</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=illustra">Illustra</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=aihackathon">AI Hackathon</a>
+                                    <li><a class="dropdown-item" href="/event.html?event=codeathon">Codeathon</a></li>
+                                    <li><a class="dropdown-item" href="/event.html?event=illustra">Illustra</a></li>
+                                    <li><a class="dropdown-item" href="/event.html?event=aihackathon">AI Hackathon</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="event.html?event=ideathon">Ideathon</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=gamedevelopment">KB Games</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=cssbattle">CSS Battle</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=techquiz">Tech Quiz</a></li>
-                                    <li><a class="dropdown-item" href="event.html?event=webally">Webally</a></li>
+                                    <li><a class="dropdown-item" href="/event.html?event=ideathon">Ideathon</a></li>
+                                    <li><a class="dropdown-item" href="/event.html?event=kbgames">KB Games</a></li>
+                                    <li><a class="dropdown-item" href="/event.html?event=cssbattle">CSS Battle</a></li>
+                                    <li><a class="dropdown-item" href="/event.html?event=techquiz">Tech Quiz</a></li>
+                                    <li><a class="dropdown-item" href="/event.html?event=webally">Webally</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Non Technical
                                 Events</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="event.html?event=openmic">Open Mic</a>
+                                <li><a class="dropdown-item" href="/event.html?event=openmic">Open Mic</a>
                                 </li>
-                                <li><a class="dropdown-item" href="event.html?event=aceclutch">Ace Clutch</a>
+                                <li><a class="dropdown-item" href="/event.html?event=aceclutch">Ace Clutch</a>
                                 </li>
-                                <li><a class="dropdown-item" href="event.html?event=blindtyping">Blind Typing</a>
+                                <li><a class="dropdown-item" href="/event.html?event=blindtyping">Blind Typing</a>
                                 </li>
-                                <li><a class="dropdown-item" href="event.html?event=flixnmanga">Flix n Manga</a>
+                                <li><a class="dropdown-item" href="/event.html?event=flixnmanga">Flix n Manga</a>
                                 </li>
-                                <li><a class="dropdown-item" href="event.html?event=imagebrush">Image Brush</a></li>
-                                <li><a class="dropdown-item" href="event.html?event=acciolanocien">Accio La Nocien</a></li>
+                                <li><a class="dropdown-item" href="/event.html?event=imagebrush">Image Brush</a></li>
+                                <li><a class="dropdown-item" href="/event.html?event=acciolanocien">Accio La Nocien</a></li>
 
                             </ul>
                         </li>
                         <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Workshop</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="event.html?event=webdevworkshop">Web
+                                <li><a class="dropdown-item" href="/event.html?event=webdevworkshop">Web
                                         Development</a></li>
-                                <li><a class="dropdown-item" href="event.html?event=gamedevworkshop">Game
+                                <li><a class="dropdown-item" href="/event.html?event=gamedevworkshop">Game
                                         Development</a></li>
-                                <li><a class="dropdown-item" href="event.html?event=javaworkshop">Java
+                                <li><a class="dropdown-item" href="/event.html?event=javaworkshop">Java
                                         Programmig</a></li>
-                                <li><a class="dropdown-item" href="event.html?event=cworkshop">C Programming</a>
+                                <li><a class="dropdown-item" href="/event.html?event=cworkshop">C Programming</a>
                                 </li>
-                                <li><a class="dropdown-item" href="event.html?event=researchworkshop">Research</a>
+                                <li><a class="dropdown-item" href="/event.html?event=researchworkshop">Research</a>
                                 </li>
                             </ul>
                         </li>
@@ -218,7 +220,23 @@
     <script src="../../assets/js/leadmark.js"></script>
     <script src="../../assets/js/slider.js"></script>
     <script src="../../assets/js/openDiv.js"></script>
+    <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+            }
+            var $subMenu = $(this).next('.dropdown-menu');
+            $subMenu.toggleClass('show');
 
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass('show');
+            });
+
+
+            return false;
+        });
+    </script>
 
 </body>
 
