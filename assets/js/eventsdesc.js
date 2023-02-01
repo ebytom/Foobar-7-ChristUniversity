@@ -548,7 +548,7 @@ const events = {
         venue: "242, Block II",
         club: "Coders Club",
         poster: "assets/imgs/poster/pos19.jpg",
-        plan: "This workshop provides a comprehensive  introduction to the Java programming language. Participants will learn the basics of Java syntax, object-oriented programming, and data structures. Topics covered include variables, control structures, classes, interfaces, and exceptions. The workshop will also touch on common Java libraries, frameworks, and best practices for writing efficient and maintainable code. Participants will get hands-on experience with writing and debugging Java code, and will complete several projects to solidify their knowledge. No prior programming experience is required, but a basic understanding of computer systems and algorithms is recommended. The goal of this workshop is to give participants the foundation they need to start coding in Java and to further their understanding of computer programming.",
+        plan: "Unlock your full coding potential by learning one of the most in-demand languages today - Java. In this brief 4-hour workshop, you'll start from the foundations, such as syntax and variables, and quickly move to advanced concepts, such as Object Oriented Programming and interfaces. At the end of the hands-on workshop, you'll build a capstone project in the domain of your choice and solidify your Java skills. Though no prior programming background is required, some understanding of algorithms and computer systems is recommended. Support for installing Java and the IDE will be provided before the event. Register now and take your first steps into the incredible world of Java!",
         desc: "",
         rules: [
 
