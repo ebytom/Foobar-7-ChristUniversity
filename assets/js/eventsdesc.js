@@ -660,6 +660,25 @@ if (currentevent.type == "Workshop") {
     document.getElementById("eventRule").style.display = "none";
 }
 if(currentevent.name == "Ideathon")
-{document.getElementById("downloadBtn").style.display = "flex";
-
+{
+    document.getElementById("downloadBtn").style.display = "flex";
 }
+
+
+var url='https://docs.google.com/presentation/d/1J-EYtJZO6jXfEltDMxhMCjg2UuTMUCfV/edit?usp=share_link&ouid=103932309256446981279&rtpof=true&sd=true';
+var filename='template.pptx';
+document.getElementById("downloadBtn").addEventListener("click", downloadFile);
+
+function downloadFile() {
+    fetch(url, { method: 'get', mode: 'no-cors', referrerPolicy: 'no-referrer' })
+      .then(res => res.blob())
+      .then(res => {
+        const aElement = document.createElement('a');
+        aElement.setAttribute('download', filename);
+        const href = URL.createObjectURL(res);
+        aElement.href = href;
+        aElement.setAttribute('target', '_blank');
+        aElement.click();
+        URL.revokeObjectURL(href);
+      });
+    };
