@@ -62,3 +62,26 @@
 #eventrules li{
     font-size: 14px;
 }
+.dowBtn{
+    cursor: pointer;
+    padding: 0 6px 0 15px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003c45;
+    color: white;
+    border-radius: 12px;
+}
+.dowBtn i{
+    margin: 0 15px;
+}
+#downloadBtn{
+    display: none;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.dowBtn:hover{
+    background-color: #000000;
+}

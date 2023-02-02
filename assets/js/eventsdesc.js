@@ -659,4 +659,7 @@ if (currentevent.type == "Workshop") {
     document.getElementById("eventPlanAction").innerHTML = "Description<br>";
     document.getElementById("eventRule").style.display = "none";
 }
+if(currentevent.name == "Ideathon")
+{document.getElementById("downloadBtn").style.display = "flex";
 
+}
