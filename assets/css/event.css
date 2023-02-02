@@ -72,6 +72,7 @@
     background-color: #003c45;
     color: white;
     border-radius: 12px;
+    user-select: none;
 }
 .dowBtn i{
     margin: 0 15px;
