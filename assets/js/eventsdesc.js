@@ -132,21 +132,21 @@ const events = {
         ],
         register: "https://forms.gle/kpkvRDHMNGVejeUi7"
     },
-    breakthequery:{
-        name:"Break the query",
-        tagline:"Query to Victory",
-        rounds:"2 Rounds",
-        duration:"2 Hour",
-        type:"Technical",
-        eventsize:"Team : 2 ",
-        date:"February 8",
-        time:"4:00 PM",
-        venue:"257, Block II",
-        club:"Coders Club",
+    breakthequery: {
+        name: "Break the query",
+        tagline: "Query to Victory",
+        rounds: "2 Rounds",
+        duration: "2 Hour",
+        type: "Technical",
+        eventsize: "Team : 2 ",
+        date: "February 8",
+        time: "4:00 PM",
+        venue: "257, Block II",
+        club: "Coders Club",
         poster: "assets/imgs/poster/pos16.jpg",
-        desc:"Break the query – a DBMS event to put your query solving skills to the test",
-        plan:"The event will consist of 2 rounds. <br><br>The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. <br><br>The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
-        rules:[
+        desc: "Break the query – a DBMS event to put your query solving skills to the test",
+        plan: "The event will consist of 2 rounds. <br><br>The first round will be an aptitude round where the participants will be tested on their knowledge of various DBMS concepts. The questions will be projected and the participants will have to write down the answers on the A4 sheets provided. <br><br>The second round will consist of solving SQL queries. All the queries will be judged after the end of the allotted time.",
+        rules: [
             "Each team will consist of 2 members.",
             "All participants must report to the venue 5 minutes before the competition begins. Latecomers will not be entertained. ",
             "Questions can be attempted in any order.",
@@ -405,8 +405,8 @@ const events = {
         venue: "Open Audi",
         club: "ASCII",
         poster: "assets/imgs/poster/pos14.jpg",
-        desc: "",
-        plan: "",
+        desc: "Open mic, can showcase their talents on a mic.",
+        plan: "1 round . Induvidual and teams of maximum 4. A single registration per team is expected multiple registration of the same team will result in deduction of points during scoring. <br><br>The registration will be first come first serve and will be closed when reaches a specific number.",
         rules: [
             "The performance (poetry, music composition, singing, and stand up) should not contain work plagiarized from other sources. Failure to adhere to it would lead to direct disqualification",
             "The performance for all the categories (stand-up comedy, spoken word, poetry, and music) should be in English.",
@@ -641,7 +641,7 @@ const eventrules = document.getElementById('eventrules')
 currentevent.rules.map(rule => {
     var lili = document.createElement('li');
     lili.innerText = rule;
-    lili.setAttribute('class','taj');
+    lili.setAttribute('class', 'taj');
     eventrules.appendChild(lili)
 })
 
@@ -651,13 +651,12 @@ document.getElementById("eventcontactname").innerText = currentevent.contact[0].
 document.getElementById("eventcontactdesign").innerText = currentevent.contact[0].design;
 document.getElementById("eventcontactnumber").innerText = `+91 ${currentevent.contact[0].phno}`;
 document.getElementById("eventcontactemail").innerText = currentevent.contact[0].email;
-document.getElementById("eventHeadNumber").setAttribute('href',`https://wa.me/91${currentevent.contact[0].phno}`);
-document.getElementById("eventHeadEmail").setAttribute('href',`mailto:${currentevent.contact[0].email}`);
+document.getElementById("eventHeadNumber").setAttribute('href', `https://wa.me/91${currentevent.contact[0].phno}`);
+document.getElementById("eventHeadEmail").setAttribute('href', `mailto:${currentevent.contact[0].email}`);
 
 
-if(currentevent.type=="Workshop")
-{
-    document.getElementById("eventPlanAction").innerHTML ="Description<br>";
-    document.getElementById("eventRule").style.display="none";
+if (currentevent.type == "Workshop") {
+    document.getElementById("eventPlanAction").innerHTML = "Description<br>";
+    document.getElementById("eventRule").style.display = "none";
 }
 
