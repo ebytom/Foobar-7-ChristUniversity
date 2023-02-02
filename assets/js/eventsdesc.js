@@ -412,12 +412,12 @@ const events = {
             "The performance for all the categories (stand-up comedy, spoken word, poetry, and music) should be in English.",
             "The time limit for each performance is mentioned below: Stand up 5-7 mins, Poetry 3 mins, Singing 3 mins, Music 3 mins"
         ],
-        contact: {
+        contact:[ {
             name: "Kevin Noronha",
             design: "Club Coordinator",
             phno: "9845199783",
             email: "kevin.noronha@btech.christuniversity.in"
-        },
+        }],
         register: "https://forms.gle/Zdng2YqDUob2vYh28"
     },
     techquiz: {
