@@ -412,7 +412,7 @@ const events = {
             "The performance for all the categories (stand-up comedy, spoken word, poetry, and music) should be in English.",
             "The time limit for each performance is mentioned below: Stand up 5-7 mins, Poetry 3 mins, Singing 3 mins, Music 3 mins"
         ],
-        contact:[ {
+        contact: [{
             name: "Kevin Noronha",
             design: "Club Coordinator",
             phno: "9845199783",
@@ -659,26 +659,6 @@ if (currentevent.type == "Workshop") {
     document.getElementById("eventPlanAction").innerHTML = "Description<br>";
     document.getElementById("eventRule").style.display = "none";
 }
-if(currentevent.name == "Ideathon")
-{
+if (currentevent.name == "Ideathon") {
     document.getElementById("downloadBtn").style.display = "flex";
 }
-
-
-var url='https://docs.google.com/presentation/d/1J-EYtJZO6jXfEltDMxhMCjg2UuTMUCfV/edit?usp=share_link&ouid=103932309256446981279&rtpof=true&sd=true';
-var filename='template.pptx';
-document.getElementById("downloadBtn").addEventListener("click", downloadFile);
-
-function downloadFile() {
-    fetch(url, { method: 'get', mode: 'no-cors', referrerPolicy: 'no-referrer' })
-      .then(res => res.blob())
-      .then(res => {
-        const aElement = document.createElement('a');
-        aElement.setAttribute('download', filename);
-        const href = URL.createObjectURL(res);
-        aElement.href = href;
-        aElement.setAttribute('target', '_blank');
-        aElement.click();
-        URL.revokeObjectURL(href);
-      });
-    };
