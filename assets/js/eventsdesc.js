@@ -19,6 +19,8 @@ const events = {
             "Mobile phones not allowed at the venue.",
             "Plagiarism not allowed, Canva templates must NOT be used.",
         ],
+        first:"1000",
+        second:"500",
         contact: [
             {
                 name: "Jerrin Jays",
@@ -55,6 +57,8 @@ const events = {
             "Every participant has to behave with respect towards the representatives, partners, and other Players.",
             "Everyone is informed to use the server channels which are named according to the purpose."
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Mohammed Khashif S",
@@ -88,6 +92,8 @@ const events = {
             "No participant other than the registered ones can take part in the AI Hackathon. The team will be disqualified if any discrepancies are found.",
             "Plagiarism of the code is strictly prohibited, if found the team will be disqualified.",
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "B Uday Satya Sai",
@@ -122,6 +128,8 @@ const events = {
             "No participant will type their name or registration number.",
             "Any form of malpractice will be viewed seriously."
         ],
+        first:"1000",
+        second:"500",
         contact: [
             {
                 name: "Krishna Sreekumar",
@@ -156,6 +164,8 @@ const events = {
             "For round 2, participants will be provided an additional 5 minutes after the allotted time to submit the spool files and presentation for the queries to be judged.",
             "Usage of the internet and other reference materials, or any other form of malpractice, will lead to disqualification."
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Alan Sabu Mathew",
@@ -192,6 +202,8 @@ const events = {
             "Participants are expected to use any offline text editor (eg-Visual Studio Code, BlueJ, Spyder, DevC++, etc). Participants must ensure that the text editor and compilers are installed beforehand.",
             "Usage of online compilers/internet and other reference materials, or any other form of malpractice, will lead to disqualification.",
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Suhaas Joshi",
@@ -222,6 +234,8 @@ const events = {
             "Unnecessary calling/any sort of indiscipline during the event will not be entertained.",
             "Should have no third-party software running in the background, etc.",
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Alan P Sunny",
@@ -253,6 +267,8 @@ const events = {
             "Cheating through any means, especially the internet is NOT allowed; Mobile phones are to be kept outside the venue. Any malpractice, if found, will lead to disqualification",
             "Questions will be picked at random for a team to add to fairness"
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Jerrin Jays",
@@ -284,6 +300,8 @@ const events = {
             "The game should be developed with software like unity or unreal engine.",
             "The code and a sample video of your game which should describe the workings and flow game must be submitted before the death line of the competition."
         ],
+        first:"1000",
+        second:"500",
         contact: [
             {
                 name: "Priyanshu Biswas",
@@ -322,6 +340,8 @@ const events = {
             "Plagiarism of the idea or any thesis is strictly prohibited. If found, the team will be disqualified. Suppose any reference. It is mandatory to include the detail of it (URLs, the Research paper/literature survey name, and the publisher's name).",
             "The ideas apart from the theme given will not be considered. (the idea should be related to the theme provided).",
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Jainam Purushotam Patel",
@@ -352,6 +372,8 @@ const events = {
             "Mobile phones not allowed at the venue",
             "Plagiarism not allowed, using Canva templates NOT allowed",
         ],
+        first:"1000",
+        second:"500",
         contact: [
             {
                 name: "Jerrin Jays",
@@ -383,6 +405,8 @@ const events = {
             "Plagiarism is not allowed",
             "No editing allowed to the given images (to be used as brushes) other than resizing, rotating and making copies"
         ],
+        first:"1000",
+        second:"500",
         contact: [
             {
                 name: "Jerrin Jays",
@@ -412,6 +436,8 @@ const events = {
             "The performance for all the categories (stand-up comedy, spoken word, poetry, and music) should be preferably in English, other languages are allowed",
             "The time limit for each performance is mentioned below: Stand up 5-7 mins, Poetry 3 mins, Singing 3 mins, Music 3 mins"
         ],
+        first:"1000",
+        second:"500",
         contact: [{
             name: "Kevin Noronha",
             design: "Club Coordinator",
@@ -438,6 +464,8 @@ const events = {
             "There should be a team of 4 students.",
             "Mobiles and Laptops won’t be allowed to be used during the event.",
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Adith Menon",
@@ -473,6 +501,8 @@ const events = {
             "No extensions to the deadline will be provided.",
             "Participants should not make changes to their entries after the deadline for submissions."
         ],
+        first:"2000",
+        second:"1000",
         contact: [
             {
                 name: "Eby Tom",
@@ -651,6 +681,9 @@ document.getElementById("eventcontactname").innerText = currentevent.contact[0].
 document.getElementById("eventcontactdesign").innerText = currentevent.contact[0].design;
 document.getElementById("eventcontactnumber").innerText = `+91 ${currentevent.contact[0].phno}`;
 document.getElementById("eventcontactemail").innerText = currentevent.contact[0].email;
+document.getElementById("fpriceAmt").innerText=currentevent.first;
+document.getElementById("spriceAmt").innerText=currentevent.second;
+
 document.getElementById("eventHeadNumber").setAttribute('href', `https://wa.me/91${currentevent.contact[0].phno}`);
 document.getElementById("eventHeadEmail").setAttribute('href', `mailto:${currentevent.contact[0].email}`);
 
@@ -658,6 +691,9 @@ document.getElementById("eventHeadEmail").setAttribute('href', `mailto:${current
 if (currentevent.type == "Workshop") {
     document.getElementById("eventPlanAction").innerHTML = "Description<br>";
     document.getElementById("eventRule").style.display = "none";
+    // document.getElementByc("removableDiv").style.display = "none";
+    document.getElementById("firstPrice").style.display = "none";
+    document.getElementById("secondPrice").style.display = "none";
 }
 if (currentevent.name == "Ideathon") {
     document.getElementById("downloadBtn").style.display = "flex";
