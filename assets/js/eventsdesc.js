@@ -401,7 +401,7 @@ const events = {
         type: "Non-Technical",
         eventsize: "Individual/Team",
         date: "February 6",
-        time: "4:00PM",
+        time: "1:00PM",
         venue: "Open Audi",
         club: "ASCII",
         poster: "assets/imgs/poster/pos14.jpg",
@@ -409,7 +409,7 @@ const events = {
         plan: "1 round . Induvidual and teams of maximum 4. A single registration per team is expected multiple registration of the same team will result in deduction of points during scoring. <br><br>The registration will be first come first serve and will be closed when reaches a specific number.",
         rules: [
             "The performance (poetry, music composition, singing, and stand up) should not contain work plagiarized from other sources. Failure to adhere to it would lead to direct disqualification",
-            "The performance for all the categories (stand-up comedy, spoken word, poetry, and music) should be in English.",
+            "The performance for all the categories (stand-up comedy, spoken word, poetry, and music) should be preferably in English, other languages are allowed",
             "The time limit for each performance is mentioned below: Stand up 5-7 mins, Poetry 3 mins, Singing 3 mins, Music 3 mins"
         ],
         contact: [{

@@ -3,7 +3,7 @@ const eventList = {
     {
       "id": "openmic",
       "name": "OPEN MIC",
-      "time": "4:00 PM",
+      "time": "1:00 PM",
       "venue": "Open Audi",
       "register": "https://forms.gle/Zdng2YqDUob2vYh28",
       "more": "event.html?event=openmic"
@@ -168,7 +168,7 @@ const eventList = {
       "time": "2:00 PM",
       "venue": "245, Block II",
       "register": "https://forms.gle/LvhatwCkN87r6E57A",
-      "more": "event.html?event=javaworkshop"
+      "more": "event.html?event=gamedevworkshop"
     }
   ],
   "twentytwo": [
@@ -178,7 +178,7 @@ const eventList = {
       "time": "4:00 PM",
       "venue": "245, Block II",
       "register": "https://forms.gle/LvhatwCkN87r6E57A",
-      "more": "event.html?event=javaworkshop"
+      "more": "event.html?event=gamedevworkshop"
     },
     {
       "id": "java",
@@ -214,7 +214,7 @@ const eventList = {
       "time": "9:00 AM",
       "venue": "Audi, Block I",
       "register": "https://forms.gle/jrn7KFAZAGH58PXP6",
-      "more": "event.html?event=javaworkshop"
+      "more": "event.html?event=researchworkshop"
     }
   ],
   "twentyfive": [
