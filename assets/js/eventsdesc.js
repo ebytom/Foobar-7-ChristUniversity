@@ -516,13 +516,13 @@ const events = {
     webdevworkshop: {
         name: "Web Development Workshop",
         tagline: "Innovate. Create. Rule the Web.",
-        rounds: "Feb - 27,28",
+        rounds: "Day 2 - 2:00PM",
         duration: "2 Days",
         type: "Workshop",
         eventsize: "-",
-        date: "Day 1 - 4:00PM",
-        time: "Day 2 - 2:00PM",
-        venue: "246, Block II",
+        date: "Feb 27,28",
+        time: "246, Block II",
+        venue: "Day 1 - 4:00PM",
         club: "Fullstack/Web Development Club",
         poster: "assets/imgs/poster/pos7.jpg",
         plan: "This workshop is an introduction to the basics of web development. Participants will learn how to create dynamic, interactive websites using HTML, CSS, and JavaScript. Topics covered include website structure and design, how to write and style HTML, and how to add interactivity with JavaScript. The workshop will also touch on web hosting and basic SEO techniques. No prior coding experience is necessary, but participants should have a basic understanding of computer systems and the internet. The goal of this workshop is to give participants the tools and knowledge they need to build their own websites and to further their understanding of web development.",
@@ -542,13 +542,13 @@ const events = {
     gamedevworkshop: {
         name: "Game Development",
         tagline: "Bring Your Gaming Dreams to Reality: Join the Development Revolution.",
-        rounds: "Feb - 21,22",
+        rounds: "Day 2 - 4:00PM",
         duration: "2 Days",
         type: "Workshop",
         eventsize: "-",
-        date: "Day 1 - 2:00PM",
-        time: "Day 2 - 4:00PM",
-        venue: "246, Block II",
+        date: "Feb 21,22",
+        time: "246, Block II",
+        venue: "Day 1 - 2:00PM",
         club: "Game Development Club",
         poster: "assets/imgs/poster/pos11.jpg",
         plan: "This workshop provides an introduction to the world of gaming and game design. Participants will learn about different types of games, game engines, and game design principles. Topics covered include game mechanics, level design, and game scripting. Participants will also get hands-on experience with game development tools and techniques, and will work on several game development projects throughout the workshop. No prior experience with game design or programming is required, but a basic understanding of computer systems is recommended. The goal of this workshop is to give participants an understanding of the game development process and to provide them with the skills they need to start designing and developing their own games. Whether you're a beginner looking to learn about the exciting world of gaming or an experienced gamer looking to take your skills to the next level, this workshop is for you!",
@@ -569,13 +569,13 @@ const events = {
     javaworkshop: {
         name: "Java Programming",
         tagline: "Unlock the Power of Java: Master the Art of Programming.",
-        rounds: "Feb - 22,23",
+        rounds: "Day 2 - 4:00PM",
         duration: "2 Days",
         type: "Workshop",
         eventsize: "-",
-        date: "Day 1 - 4:00PM",
-        time: "Day 2 - 4:00PM",
-        venue: "242, Block II",
+        date: "Feb 22,23",
+        time: "242, Block II",
+        venue: "Day 1 - 4:00PM",
         club: "Coders Club",
         poster: "assets/imgs/poster/pos19.jpg",
         plan: "Unlock your full coding potential by learning one of the most in-demand languages today - Java. In this brief 4-hour workshop, you'll start from the foundations, such as syntax and variables, and quickly move to advanced concepts, such as Object Oriented Programming and interfaces. At the end of the hands-on workshop, you'll build a capstone project in the domain of your choice and solidify your Java skills. Though no prior programming background is required, some understanding of algorithms and computer systems is recommended. Support for installing Java and the IDE will be provided before the event. Register now and take your first steps into the incredible world of Java!",
@@ -596,13 +596,13 @@ const events = {
     cworkshop: {
         name: "C Programming",
         tagline: "From Beginner to Pro: C Your Way to Success.",
-        rounds: "Feb - 24,25",
+        rounds: "Day 2 - 2:00PM",
         duration: "2 Days",
         type: "Workshop",
         eventsize: "-",
-        date: "Day 1 - 2:00PM",
-        time: "Day 2 - 2:00PM",
-        venue: "242, Block II",
+        date: "Feb 24,25",
+        time: "242, Block II",
+        venue: "Day 1 - 2:00PM",
         club: "Coders Development Club",
         poster: "assets/imgs/poster/pos18.jpg",
         plan: "This workshop will provide an introduction to the C programming language. Participants will learn the fundamentals of C syntax, data types, control structures, functions, and pointers. Topics will also include an overview of common libraries and functions in C, and how to write and debug programs in C. Participants will also get hands-on experience with coding and developing simple C programs. No prior programming experience is required, but a basic understanding of computer systems and algorithms is recommended. This workshop is ideal for beginners who want to start learning programming or those who want to expand their skills in C programming. The goal of this workshop is to equip participants with the foundational knowledge and practical skills needed to start coding in C and to further their understanding of computer programming.",
@@ -703,8 +703,8 @@ if (currentevent.name == "Ideathon") {
 
 
 var blink = document.getElementById('blink');
-var dd = parseInt(currentevent.date.split(" ")[1])-1;
-console.log(dd);
+
+    var dd = parseInt(currentevent.date.split(" ")[1])-1;
 
 
 blink.innerHTML=`Registrarions will close on February ${dd}`
