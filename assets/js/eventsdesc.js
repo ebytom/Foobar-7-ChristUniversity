@@ -698,3 +698,17 @@ if (currentevent.type == "Workshop") {
 if (currentevent.name == "Ideathon") {
     document.getElementById("downloadBtn").style.display = "flex";
 }
+
+
+
+
+var blink = document.getElementById('blink');
+var dd = parseInt(currentevent.date.split(" ")[1])-1;
+console.log(dd);
+
+
+blink.innerHTML=`Registrarions will close on February ${dd}`
+        setInterval(function () {
+            blink.style.opacity = 
+            (blink.style.opacity == 0 ? 1 : 0);
+        },800); 

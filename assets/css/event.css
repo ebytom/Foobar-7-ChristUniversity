@@ -108,3 +108,9 @@
 #secondPrice p{
     margin: 0;
 }
+.impMssg{
+    color: red;
+}
+.impMssgDiv{
+    text-align: center;
+}
