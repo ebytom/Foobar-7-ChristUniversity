@@ -703,9 +703,11 @@ if (currentevent.name == "Ideathon") {
 
 
 var blink = document.getElementById('blink');
-
-    var dd = parseInt(currentevent.date.split(" ")[1])-1;
-
+var dd = parseInt(currentevent.date.split(" ")[1])-1;
+if(currentevent.name=="Ace Clutch")
+{
+    var dd = parseInt(currentevent.date.split(" ")[1])-2;
+}
 
 blink.innerHTML=`Registrarions will close on February ${dd}`
         setInterval(function () {
