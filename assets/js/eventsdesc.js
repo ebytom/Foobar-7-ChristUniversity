@@ -298,7 +298,7 @@ const events = {
             "Reference from other sources is acceptable, but not the whole code or the same copy.",
             "No participants are encouraged to discuss their ideas with other participants during the competition.",
             "The game should be developed with software like unity or unreal engine.",
-            "The code and a sample video of your game which should describe the workings and flow game must be submitted before the death line of the competition."
+            "The code and a sample video of your game which should describe the workings and flow game must be submitted before the dead line of the competition."
         ],
         first:"Rs. 1000",
         second:"Rs. 500",

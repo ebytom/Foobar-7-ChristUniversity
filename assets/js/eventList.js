@@ -136,7 +136,7 @@ const eventList = {
       "time": "2:00 PM",
       "venue": "Audi, Block I",
       "register": "https://forms.gle/GW4jrHXvGkgaXngD6",
-      "more": "event.html?event=teckquiz"
+      "more": "event.html?event=techquiz"
     }
   ],
   "eighteen": [
