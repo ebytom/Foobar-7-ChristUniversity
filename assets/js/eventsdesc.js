@@ -77,7 +77,7 @@ const events = {
         type: "Technical",
         eventsize: "Team : 2-4",
         date: "February 7",
-        time: "4:00 PM",
+        time: "2:00 PM",
         venue: "242, Block II",
         club: "Neuron Club",
         poster: "assets/imgs/poster/pos6.jpg",

@@ -13,7 +13,7 @@ const eventList = {
     {
       "id": "ai",
       "name": "AI HACKATHON",
-      "time": "4:00 PM",
+      "time": "2:00 PM",
       "venue": "242, Block II",
       "register": "https://forms.gle/KAp4ERDtBzBLaXwL6",
       "more": "event.html?event=aihackathon"
