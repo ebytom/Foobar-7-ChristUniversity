@@ -340,9 +340,7 @@ for (const [key, value] of Object.entries(eventList)) {
 var numDate = new Date().getDate()
 
 setTimeout(() => {
-  if(numDate<6){
-    document.getElementById(`calenderid${6}`).click()
-  }
+  var numDate = new Date().getDate()
   document.getElementById(`calenderid${numDate}`).click()
-}, 500);
+}, 1000);
 
