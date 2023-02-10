@@ -23,7 +23,7 @@ const eventList = {
     {
       "id": "query",
       "name": "BREAK THE QUERY",
-      "time": "4:00 PM",
+      "time": "Postponed",
       "venue": "257, Block II",
       "register": "https://forms.gle/4uipUXZzcTAyomL47",
       "more": "event.html?event=breakthequery"
@@ -89,6 +89,14 @@ const eventList = {
       "venue": "242, Block II",
       "register": "https://forms.gle/MdH5oZED5BVrstwg8",
       "more": "event.html?event=imagebrush"
+    },
+    {
+      "id": "query",
+      "name": "BREAK THE QUERY",
+      "time": "4:00PM",
+      "venue": "257, Block II",
+      "register": "https://forms.gle/4uipUXZzcTAyomL47",
+      "more": "event.html?event=breakthequery"
     }
   ],
   "fourteen": [
