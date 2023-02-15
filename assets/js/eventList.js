@@ -55,14 +55,6 @@ const eventList = {
       "venue": "242, Block II",
       "register": "https://forms.gle/Q8ioT35J7Aybjbpx7",
       "more": "event.html?event=illustra"
-    },
-    {
-      "id": "ideathon",
-      "name": "IDEATHON",
-      "time": "4:00 PM",
-      "venue": "255, Block II",
-      "register": "https://forms.gle/wJP7ZkktAWFFLyZ36",
-      "more": "event.html?event=ideathon"
     }
   ],
   "eleven": [
@@ -177,6 +169,14 @@ const eventList = {
       "venue": "245, Block II",
       "register": "https://forms.gle/LvhatwCkN87r6E57A",
       "more": "event.html?event=gamedevworkshop"
+    },
+    {
+      "id": "ideathon",
+      "name": "IDEATHON",
+      "time": "4:00 PM",
+      "venue": "255, Block II",
+      "register": "https://forms.gle/wJP7ZkktAWFFLyZ36",
+      "more": "event.html?event=ideathon"
     }
   ],
   "twentytwo": [

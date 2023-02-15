@@ -323,9 +323,9 @@ const events = {
         time: "4:00 PM",
         venue: "255, Block II",
         club: "Neuron Club",
-        poster: "assets/imgs/poster/pos17.jpg",
+        poster: "assets/imgs/poster/pos17.png",
         plan: "There should be genuine problems and solutions related to the theme. <br>The format of the presentation to present will be shared for reference. <br>Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. <br>The event will be in offline mode.",
-        desc: "The team can propose any conceptual ideas or the research/survey done by the group, which gives some conclusions related to the theme considered. This event is to prepare yourself to build the confidence for pitching your ideas and get some suggestions from the judges to take further steps to reach the goal of your opinion. This event will let you get the experience of teamwork and reduce the stage fear. There should be genuine problems and solutions related to the theme. The format of the presentation to present will be shared for reference. Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. The event will be in offline mode.",
+        desc: "The team can propose any conceptual ideas or the research/survey done by the group, which gives some conclusions related to the theme considered. This event is to prepare yourself to build the confidence for pitching your ideas and get some suggestions from the judges to take further steps to reach the goal of your opinion. This event will let you get the experience of teamwork and reduce the stage fear. There should be genuine problems and solutions related to the theme. The format of the presentation to present will be shared for reference. Each team will have a time of 30 min to explain, then for Q & A, and also for prototype presentation if you have any. The event will be in offline mode.<br><br><b>THEME : Technical, Non-Technical, Startup, Research</b>",
         rules: [
             "The participant's team size must be 2-5.",
             "Each team must have a unique team name.",
@@ -654,7 +654,7 @@ const currentevent = events[window.location.search.split('=')[1]]
 
 document.getElementById("eventname").innerText = currentevent.name;
 document.getElementById("eventtagline").innerText = currentevent.tagline;
-document.getElementById("eventdesc").innerText = currentevent.desc;
+document.getElementById("eventdesc").innerHTML = currentevent.desc;
 
 document.getElementById("eventdate").innerText = currentevent.date;
 document.getElementById("eventtime").innerText = currentevent.time;
